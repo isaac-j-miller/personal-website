@@ -1,11 +1,492 @@
 {
+  "info": {
+    "fullName": "Isaac J. Miller",
+    "heroImage": "public/beach-jacket.jpg"
+  },
+  "socialLinks": [
+    {
+      "icon": "public/linkedin.png",
+      "link": "https://www.linkedin.com/in/isaac-j-miller/"
+    },
+    {
+      "icon": "public/github.png",
+      "link": "https://github.com/isaac-j-miller/"
+    },
+    {
+      "icon": "public/researchgate.png",
+      "link": "https://www.researchgate.net/profile/Isaac_Miller2"
+    }
+  ],
+  "aboutMe": {
+    "headshot": "public/headshot-1.png",
+    "sections": [
+      {
+        "subHeader": "I am a skilled and experienced engineer",
+        "text": "I am a forward-thinking, detail-oriented Software Engineer with DevOps experience, a reputation for writing well-tested, well-documented, reliable, and clean code and infrastructure. I am passionate about designing for scalability and automating things. I'm fluent in Typescript and Python and experienced with C# and C++. I am a team player focused on building robust, scalable systems, completing project objectives within their deadlines, and writing detailed documentation for other teams."
+      },
+      {
+        "subHeader": "I love to learn",
+        "text": "I am constantly searching to expand my knowledge and abilities. I completed two intense bachelors degrees simultaneously because I just couldn't get enough. I am an avid reader, especially of history and sci-fi. In addition to programming languages, I have a deep interest in human languages as well. I enjoy reading about linguistics and learning new languages. I'm proficient in Spanish, and I am currently learning German. I've dabbled in Swedish and Italian as well.\nI also enjoy woodworking, machining, and welding. I love to make things with my hands. Several of the furniture pieces in my home were built by me."
+      },
+      {
+        "subHeader": "I have a unique background",
+        "text": "Diversity in thought is one of an organization's greatest strengths. When people from a variety of backgrounds come together to create something, everyone's preconceptions, ideas, and ways of thinking collide, and are merged into a final product which benefits from the combined experience, knowledge, and perspective of all the people involved. The more diverse the group is, the more unique ideas and perspectives are present in the amalgam, resulting in a more thorough, better thought-out, and more robust final product. I bring with me the unique experience of five years of chemistry education and four years of education in general engineering. I am well-versed in physics, thermodynamics, chemistry, engineering, mathematics, history, and programming, and I love to apply my knowledge to new problems."
+      },
+      {
+        "subHeader": "I am constantly improving",
+        "text": "When I look at code I wrote years ago, I will often feel a slight sense of embarrassment: _\"Did I really write that?\"_ But when I look at my old code and I don't think that, I have a worse feeling: _\"Am I not improving?\"_ It is good to be embarrassed by the quality of one's old code because that indicates that one's standards and ability now are greater than when the code was written because it means that one is improving. I am a little ashamed of some of my older projects on GitHub, but I leave them as a reminder of how far I've come."
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "typescript",
+      "level": "expert",
+      "alt": [
+        "ts",
+        "programming language",
+        "web dev",
+        "frontend",
+        "technogies",
+        "technology"
+      ]
+    },
+    {
+      "name": "javascript",
+      "level": "proficient",
+      "alt": [
+        "js",
+        "programming language",
+        "web dev",
+        "frontend",
+        "technogies",
+        "technology"
+      ]
+    },
+    {
+      "name": "python",
+      "level": "proficient",
+      "alt": ["programming language", "backend", "technogies", "technology"]
+    },
+    {
+      "name": "node.js",
+      "level": "expert",
+      "alt": [
+        "nodejs",
+        "node",
+        "backend",
+        "library",
+        "libraries",
+        "technogies",
+        "technology"
+      ]
+    },
+    {
+      "name": "webpack",
+      "level": "proficient",
+      "alt": [
+        "nodejs",
+        "node",
+        "library",
+        "libraries",
+        "technogies",
+        "technology"
+      ]
+    },
+    {
+      "name": "express.js",
+      "level": "expert",
+      "alt": [
+        "express",
+        "backend",
+        "library",
+        "libraries",
+        "technogies",
+        "technology"
+      ]
+    },
+    {
+      "name": "react.js",
+      "level": "proficient",
+      "alt": [
+        "reactjs",
+        "react",
+        "library",
+        "libraries",
+        "web dev",
+        "frontend",
+        "technogies",
+        "technology"
+      ]
+    },
+    {
+      "name": "bash",
+      "level": "competent",
+      "alt": ["devops", "shell", "unix", "linux", "technogies", "technology"]
+    },
+    {
+      "name": "C++",
+      "level": "competent",
+      "alt": ["programming language", "backend", "technogies", "technology"]
+    },
+    {
+      "name": "html",
+      "level": "proficient",
+      "alt": ["web dev", "frontend", "technogies", "technology"]
+    },
+    {
+      "name": "C#",
+      "level": "advanced-beginner",
+      "alt": ["programming language", "backend", "technogies", "technology"]
+    },
+    {
+      "name": ".NET Core",
+      "level": "advanced-beginner",
+      "alt": ["dotnet", "backend", "technogies", "technology"]
+    },
+
+    {
+      "name": "i18n",
+      "level": "proficient",
+      "alt": ["web dev", "frontend", "internationalization"]
+    },
+
+    { "name": "mathematics", "level": "proficient", "alt": [] },
+    { "name": "linear algebra", "level": "competent", "alt": ["mathematics"] },
+    { "name": "calculus", "level": "proficient", "alt": ["mathematics"] },
+    {
+      "name": "differential equations",
+      "level": "competent",
+      "alt": ["mathematics"]
+    },
+
+    {
+      "name": "object-oriented programming",
+      "level": "proficient",
+      "alt": ["oop"]
+    },
+    { "name": "distributed architecture", "level": "proficient" },
+    { "name": "cloud architecture", "level": "proficient" },
+
+    {
+      "name": "terraform",
+      "level": "competent",
+      "alt": ["devops", "technogies", "technology"]
+    },
+    { "name": "documentation", "level": "expert", "alt": ["writing", "team"] },
+    {
+      "name": "linux",
+      "level": "proficient",
+      "alt": ["devops", "operating system", "os", "technogies", "technology"]
+    },
+    {
+      "name": "mac",
+      "level": "proficient",
+      "alt": ["operating system", "os", "technogies", "technology"]
+    },
+    {
+      "name": "windows",
+      "level": "competent",
+      "alt": ["operating system", "os", "technogies", "technology"]
+    },
+    {
+      "name": "git",
+      "level": "proficient",
+      "alt": ["version control", "source control", "technogies", "technology"]
+    },
+    {
+      "name": "github actions",
+      "level": "proficient",
+      "alt": ["devops", "yaml", "technogies", "technology"]
+    },
+    {
+      "name": "gitlab ci/cd",
+      "level": "proficient",
+      "alt": ["devops", "yaml", "technogies", "technology"]
+    },
+    { "name": "ci/cd", "level": "proficient", "alt": ["devops", "yaml"] },
+    {
+      "name": "docker",
+      "level": "proficient",
+      "alt": [
+        "containerization",
+        "containers",
+        "devops",
+        "technogies",
+        "technology"
+      ]
+    },
+    {
+      "name": "docker swarm",
+      "level": "novice",
+      "alt": ["devops", "technogies", "technology"]
+    },
+
+    {
+      "name": "tfs",
+      "level": "proficient",
+      "alt": ["devops", "technogies", "technology"]
+    },
+    {
+      "name": "azure devops",
+      "level": "proficient",
+      "alt": ["devops", "technogies", "technology"]
+    },
+    { "name": "agile methodology", "level": "competent" },
+    {
+      "name": "numpy",
+      "level": "proficient",
+      "alt": [
+        "python",
+        "data",
+        "library",
+        "libraries",
+        "technogies",
+        "technology"
+      ]
+    },
+    {
+      "name": "django",
+      "level": "competent",
+      "alt": [
+        "python",
+        "backend",
+        "library",
+        "libraries",
+        "technogies",
+        "technology"
+      ]
+    },
+    {
+      "name": "aws",
+      "level": "proficient",
+      "alt": ["devops", "technogies", "technology", "cloud"]
+    },
+    {
+      "name": "aws lambda",
+      "level": "proficient",
+      "alt": ["devops", "technogies", "technology", "cloud"]
+    },
+    {
+      "name": "aws ecs",
+      "level": "proficient",
+      "alt": ["devops", "technogies", "technology", "cloud"]
+    },
+    {
+      "name": "aws ssm",
+      "level": "proficient",
+      "alt": ["devops", "technogies", "technology", "cloud"]
+    },
+    {
+      "name": "aws alb",
+      "level": "proficient",
+      "alt": ["devops", "technogies", "technology", "cloud"]
+    },
+    {
+      "name": "aws iam",
+      "level": "proficient",
+      "alt": ["devops", "technogies", "technology", "cloud"]
+    },
+    {
+      "name": "selenium",
+      "level": "proficient",
+      "alt": ["webscraping", "webdriver", "technogies", "technology"]
+    },
+    {
+      "name": "puppeteer",
+      "level": "proficient",
+      "alt": ["webscraping", "webdriver", "technogies", "technology"]
+    },
+    {
+      "name": "full-stack development",
+      "level": "proficient",
+      "alt": ["web dev", "frontend", "backend"]
+    },
+    {
+      "name": "frontend development",
+      "level": "competent",
+      "alt": ["web dev", "frontend"]
+    },
+    { "name": "backend development", "level": "proficient" },
+
+    { "name": "agile methodology", "level": "proficient" },
+
+    {
+      "name": "problem-solving",
+      "level": "expert",
+      "alt": ["problem solving"]
+    },
+
+    {
+      "name": "microcontrollers",
+      "level": "competent",
+      "alt": ["microprocessors", "technogies", "technology"]
+    },
+    {
+      "name": "arduino",
+      "level": "proficient",
+      "alt": ["microcontrollers", "microprocessors", "technogies", "technology"]
+    },
+    {
+      "name": "raspberry pi",
+      "level": "proficient",
+      "alt": ["rpi", "pi", "raspberry", "technogies", "technology"]
+    },
+
+    { "name": "woodworking", "level": "advanced-beginner" },
+    { "name": "machining", "level": "competent" },
+    { "name": "laser cutting", "level": "competent" },
+    { "name": "mig welding", "level": "advanced-beginner", "alt": ["gmaw"] },
+
+    { "name": "soldering", "level": "proficient" },
+    { "name": "circuitry", "level": "competent" },
+
+    { "name": "drums", "level": "proficient", "alt": ["music"] },
+    { "name": "saxophone", "level": "expert", "alt": ["music"] },
+    { "name": "guitar", "level": "competent", "alt": ["music"] },
+    {
+      "name": "keyboard",
+      "level": "advanced-beginner",
+      "alt": ["music", "piano"]
+    },
+
+    {
+      "name": "english",
+      "level": "expert",
+      "alt": ["language", "human language"]
+    },
+    {
+      "name": "german",
+      "level": "advanced-beginner",
+      "alt": ["language", "human language"]
+    },
+    {
+      "name": "spanish",
+      "level": "competent",
+      "alt": ["language", "human language"]
+    },
+    {
+      "name": "swedish",
+      "level": "novice",
+      "alt": ["language", "human language"]
+    },
+
+    {
+      "name": "vim",
+      "level": "competent",
+      "alt": ["technogies", "technology"]
+    },
+    {
+      "name": "vscode",
+      "level": "expert",
+      "alt": ["visual studio code", "technogies", "technology"]
+    },
+
+    {
+      "name": "additive manufacturing",
+      "level": "competent",
+      "alt": ["3d printing", "technogies", "technology"]
+    },
+    {
+      "name": "solidworks",
+      "level": "competent",
+      "alt": ["cad", "technogies", "technology"]
+    },
+    {
+      "name": "labview",
+      "level": "competent",
+      "alt": [
+        "visual programming",
+        "programming language",
+        "technogies",
+        "technology"
+      ]
+    },
+    {
+      "name": "laboratory techniques",
+      "level": "proficient",
+      "alt": ["lab", "chemistry"]
+    },
+    {
+      "name": "infrared spectroscopy",
+      "level": "competent",
+      "alt": ["ir", "spectroscopy"]
+    },
+
+    {
+      "name": "jaeger",
+      "level": "competent",
+      "alt": ["tracing", "telemetry", "technogies", "technology"]
+    },
+    {
+      "name": "opentelemetry",
+      "level": "proficient",
+      "alt": ["tracing", "telemetry", "technogies", "technology"]
+    },
+    {
+      "name": "node async hooks",
+      "level": "proficient",
+      "alt": ["backend", "technogies", "technology"]
+    },
+    {
+      "name": "event-driven programming",
+      "level": "proficient",
+      "alt": ["async", "async/await"]
+    },
+    {
+      "name": "pandas",
+      "level": "proficient",
+      "alt": [
+        "python",
+        "data",
+        "library",
+        "libraries",
+        "technogies",
+        "technology"
+      ]
+    },
+    {
+      "name": "sql",
+      "level": "proficient",
+      "alt": ["database", "db", "technogies", "technology"]
+    },
+    {
+      "name": "dynamodb",
+      "level": "proficient",
+      "alt": ["database", "db", "technogies", "technology", "aws", "cloud"]
+    },
+    {
+      "name": "nosql",
+      "level": "advanced-beginner",
+      "alt": ["database", "db", "technogies", "technology"]
+    },
+    {
+      "name": "localstack",
+      "level": "expert",
+      "alt": ["cloud", "aws", "technogies", "technology"]
+    },
+    {
+      "name": "postgresql",
+      "level": "proficient",
+      "alt": ["db", "database", "technogies", "technology"]
+    },
+    {
+      "name": "kafka",
+      "level": "competent",
+      "alt": ["technogies", "technology"]
+    },
+    {
+      "name": "unix",
+      "level": "proficient",
+      "alt": ["os", "operating system", "technogies", "technology"]
+    }
+  ],
   "sections": [
     {
       "header": "Experience",
       "subSections": [
         {
           "header": "Costar Group",
-          "headerAlign": "left",
           "subHeader": "September 2020 – Current",
           "points": [
             {
@@ -34,7 +515,6 @@
         {
           "header": "InsurePro, LLC",
           "subHeader": "April 2020 – Current",
-          "headerAlign": "left",
           "points": [
             {
               "header": "Software Engineer (Part-time, September 2020 – Current)",
@@ -55,7 +535,6 @@
         {
           "header": "James Madison University",
           "subHeader": "May 2017 – April 2020",
-          "headerAlign": "left",
           "points": [
             {
               "header": "Research Assistant",
@@ -75,7 +554,6 @@
         {
           "header": "Daikin Applied",
           "subHeader": "May 2019 – December 2019",
-          "headerAlign": "left",
           "points": [
             {
               "header": "Intern",
@@ -96,7 +574,6 @@
         {
           "header": "James Madison University",
           "subHeader": "Class of 2020",
-          "headerAlign": "left",
           "points": [
             {
               "header": "B.S., Chemistry",
@@ -104,7 +581,8 @@
             },
             {
               "header": "B.S., Engineering",
-              "items": ["Minor in Mathematics", "3.7 GPA"]
+              "blurb": "When I graduated from high school in May, 2015, I did not know what I wanted to pursue in college. So I chose to major in chemistry because I enjoyed it in high school. My freshman year, I developed a deep appreciation for chemistry, and I joined a research lab my sophomore year. That same year, I became fascinated by the projects being done by the engineering students, so I dropped my chemistry major and switched to engineering. But by the end of the semester, I realized I loved my chemistry research and classes too much to quit, so I added chemistry as a second major. Four years later, I graduated with two degrees: one in chemistry, and another in engineering.",
+              "items": ["Minor in Mathematics", "3.6 GPA"]
             }
           ]
         }
@@ -114,41 +592,22 @@
       "header": "Projects",
       "subSections": [
         {
-          "header": "Academic Projects",
-          "headerAlign": "left",
-          "points": [
-            {
-              "header": "Engineering Capstone (September 2018 – April 2020)",
-              "items": [
-                "Designed and implemented web application for uploading raw data and analyzing crop health using multispectral imagery",
-                "Designed and implemented data processing system for stitching together thousands of images into a mosaic and elevation map for visualizing changes in crop health over time",
-                "Managed client uploads of multi-gigabyte raw data to AWS S3 for automated processing"
-              ]
-            },
-            {
-              "header": "IoT Pedometer Project (January – April 2020)",
-              "items": [
-                "Designed, built, and programmed IoT pedometer which was able to track step counts with > 95% accuracy and transmit results wirelessly to a paired computer"
-              ]
-            }
-          ]
-        },
-        {
           "header": "Personal Projects",
-          "headerAlign": "left",
           "points": [
             {
               "header": "lite-ci (January 2022 – Current)",
               "items": [
                 "Designed and developed a lightweight, miniature CI server for self-hosted projects using Node.JS and Express",
-                "I plan to re-implement in Python to make installation easier for Raspberry Pi hobbyists"
+                "I plan to re-implement in Python to make installation easier for Raspberry Pi hobbyists",
+                "GitHub repo [here](https://github.com/isaac-j-miller/lite-ci)"
               ]
             },
             {
               "header": "Smart Mirror (February 2020, January 2022)",
               "items": [
                 "Designed, built, and coded a smart mirror for my partner using a Raspberry Pi",
-                "Recently re-worked the project to use my lite-ci package to incorporate CI/CD pipelines"
+                "Recently re-worked the project to use my lite-ci package to incorporate CI/CD pipelines",
+                "GitHub repo [here](https://github.com/isaac-j-miller/mirror-v2)"
               ]
             },
             {
@@ -156,15 +615,138 @@
               "items": [
                 "Designed and implemented an open-source simulation of a helium nanodroplet isolation spectrometer for teaching purposes",
                 "Re-worked project to utilize distributed architecture, migrating from an ECS-based app to S3/API Gateway/Lambda",
-                "Reduced cloud hosting costs from approximately $15 per month to approximately $0.50 per month (97%!)"
+                "Reduced cloud hosting costs from approximately $15 per month to approximately $0.50 per month (97%!)",
+                "GitHub repo [here](https://github.com/isaac-j-miller/virtual-hendi)",
+                "Hosted [here](https://virtual-hendi.isaac-j-miller.com)"
               ]
             },
             {
-              "header": "C++ Projects (2018–2019)",
+              "header": "Spaceships Game (June – November 2019)",
               "items": [
-                "Wrote Galaga-inspired 2D shooter game in C++ and implemented functional physics system (2019)",
-                "Wrote console-based Tic-Tac-Toe game in C++ utilizing the Minimax algorithm (2018)"
+                "Developed a 2D arcade-style game using C++",
+                "Built polymorphic collision detection functions for collisions between different types of objects (i.e. lines, points, polygons)",
+                "Developed realistic physics system, which accidentally resulted in an accurate simulation of gravity and orbit (in 2 dimensions)"
               ]
+            },
+            {
+              "header": "Tic-Tac-Toe Game (July 2019)",
+              "items": [
+                "Wrote console-based Tic-Tac-Toe game in C++ utilizing the Minimax algorithm"
+              ]
+            },
+            {
+              "header": "Chess Game (March – April 2019)",
+              "items": ["Wrote multi-player chess game with GUI using Python"]
+            },
+            {
+              "header": "Self-Driving Toy Car",
+              "items": [
+                "Designed and built a self-driving toy car, programmed in C++",
+                "Wrote object-detection and collision avoidance algorithms to allow the vehicle to autonomously navigate an obstacle course",
+                "Interfaced ultrasonic sensors, motor controllers, Hall effect transistors, and an accelerometer with an Arduino microcontroller using SPI and I^2^C protocols"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "Academic Projects",
+          "points": [
+            {
+              "header": "Engineering Capstone (September 2018 – April 2020)",
+              "items": [
+                "Worked with a team of 8 in a 2-year long capstone project to design and build an autonomous aerial multispectral imaging platform.",
+                "Designed and implemented web application for uploading raw data and analyzing crop health using multispectral imagery",
+                "Designed and implemented data processing system for stitching together thousands of images into a mosaic and elevation map for visualizing changes in crop health over time",
+                "Managed client uploads of multi-gigabyte raw data to AWS S3 for automated processing",
+                "Developed Python backend for processing and serving multispectral crop data"
+              ]
+            },
+            {
+              "header": "IoT Pedometer Project (September – December 2019)",
+              "items": [
+                "Designed, built, and programmed IoT pedometer which was able to track step counts with > 95% accuracy and transmit results wirelessly to a paired computer",
+                "Wrote pedometer-side code in C++ with a cross-platform Python GUI client"
+              ]
+            },
+            {
+              "header": "Interlock for Interlock for Helium Nanodroplet Isolation Spectrometer (September 2018 – August 2019)",
+              "items": [
+                "Independently designed and built a flexble, microcontroller-driven digital interlock system.",
+                "Wrote device firmware in C++ to prevent or mitigate damage to delicate scientific instruments in the case of malfunction.",
+                "Designed and implemented circuitry on a custom-made printed circuit board (Click here for the circuit diagram.)",
+                "Built a GUI using Python to modify Interlock configuration.",
+                "Wrote a comprehensive user manual to explain device features and troubleshoot problems.",
+                "Interfaced the microcontroller with a Raspberry Pi to connect to the internet and provide remote control over the lab."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "Publications, Presentations, & Awards",
+      "subSections": [
+        {
+          "header": "Publications & Presentations",
+          "points": [
+            {
+              "header": "Peer-Reviewed Articles",
+              "blurb": "During my 3 years of work as a research assistant in the Raston Lab at JMU, I co-authored four peer-reviewed publications, contributed to three conference papers and presented our lab's findings at several national and international-level conferences.",
+              "items": [
+                "The Synchrotron-based Far-infrared Spectrum of Glycolaldehyde\nBreanna Collier, Kristopher Krueger, Isaac Miller, Jianbiao Zhao, Brant E. Billinghurst, and Paul L. Raston\n The Astrophysical Journal Supplement Series 2021 253 (2), 40-51 [DOI:10.3847/1538-4365/abde40](http://dx.doi.org/10.3847/1538-4365/abde40)",
+                "Observation of the elusive “oxygen-in” OCS dimer\nIsaac Miller, Ty Faulkner, John Saunier, and Paul L. Raston\nThe Journal Chemical Physics 2020 152, 221102 [DOI: 10.1063/5.0010716](https://aip.scitation.org/doi/10.1063/5.0010716)",
+                "Laser Spectroscopy of Methanol Isotopologues in ^4^He Nanodroplets: Probing the Inertial Response around a Moderately Light Rotor\nIsaac Miller, Ty Faulkner, and Paul L. Raston\nThe Journal of Physical Chemistry A 2019 123 (8), 1630-1636 [DOI: 10.1021/acs.jpca.8b12576](https://pubs.acs.org/doi/10.1021/acs.jpca.8b12576)",
+                "Quantum cascade laser spectroscopy of OCS isotopologues in ^4^He nanodroplets: A test of adiabatic following for a heavy rotor\nTy Faulkner, Isaac Miller, and Paul L. Raston\nThe Journal of Chemical Physics 2018 148 (4), 044308 [DOI: 10.1063/1.5009908](https://aip.scitation.org/doi/10.1063/1.5009908)"
+              ]
+            },
+            {
+              "header": "Conference Papers and other Publications",
+              "items": [
+                "Probing Quantum Solvation of Asymmetric Rotors using Broadband Rotational Spectroscopy.\nWolfgang Jäger, Paul Raston, Isaac James Miller, Arsh Singh Hazrah\n75^th^ International Symposium on Molecular Spectroscopy TE08 (June 2020) [DOI: 10.15278/isms.2020.TE08](http://dx.doi.org/10.15278/isms.2020.TE08)",
+                "Laser Spectroscopy of OCS-Water Complexes in Superfluid Helium Nanodroplets.\nIsaac Miller, Paul Raston, Ty Faulkner, and Tyler Wells\n74^th^ International Symposium on Molecular Spectroscopy, WH07 (June 2019) [DOI: 10.15278/isms.2019.WH07](https://www.ideals.illinois.edu/handle/2142/104319)",
+                "Quantum Cascade Laser Spectroscopy of Carbonyl Sulfide and Methanol Isotopologues in Helium Nanodroplets\nIsaac Miller, Paul Raston, and Ty Faulkner\n73^rd^ International Symposium on Molecular Spectroscopy, FD09 (June 2018) [DOI: 10.15278/isms.2018.FD09](https://www.ideals.illinois.edu/handle/2142/100767)",
+                "Complete Genome Sequence of Bacillus Phage Belinda from Grand Cayman Island.\nEileen Breslin, Jessica Cornell, Louise Temple, Isaac Miller et al.\nGenome Announc. 2016 Oct 13; 4(5) [DOI: 10.1128/genomeA.00571-16](https://mra.asm.org/content/4/5/e00571-16)"
+              ]
+            },
+            {
+              "header": "Presentations",
+              "items": [
+                "Laser spectroscopy of OCS Dimers in ^4^He nanodroplets.\n71^st^ Southeastern Regional Meeting of the American Chemical Society. 2019. Savannah, Georgia.",
+                "Laser spectroscopy of OCS Dimers in ^4^He nanodroplets.\n74^th^ International Symposium on Molecular Spectroscopy. 2019. Urbana-Champaign, Illinois.",
+                "Laser spectroscopy of OCS Dimers in ^4^He nanodroplets.\n44^th^ Chemistry & Biochemistry Spring Research Symposium. 2019. Harrisonburg, Virginia.",
+                "Quantum Cascade Laser Spectroscopy of Carbonyl Sulfide and Methanol Isotopologues in Helium Nanodroplets.\nJMU Summer Research Symposium. 2018. Harrisonburg, Virginia.",
+                "Quantum Cascade Laser Spectroscopy of OCS Isotopologues in ^4^He nanodroplets: A test of adiabatic following for a heavy rotor.\n73^rd^ International Symposium on Molecular Spectroscopy. 2018. Urbana-Champaign, Illinois."
+              ]
+            }
+          ]
+        },
+        {
+          "header": "Awards",
+          "headerAlign": "left",
+          "points": [
+            {
+              "header": "Best Senior Capstone Business Idea at the Madison Engineering xChange (Spring 2020)",
+              "blurb": "This award is given to the senior capstone team voted to have the most entrepreneurial value"
+            },
+            {
+              "header": "ACS Physical Chemistry Award (Spring 2019)",
+              "blurb": "This award is given to one outstanding student in the area of physical chemistry each year"
+            },
+            {
+              "header": "Bluestone Hacks 2nd Runner-Up (Spring 2019)",
+              "blurb": "Developed innovative traffic solution using micro-controllers and IoT concepts"
+            },
+            {
+              "header": "1^st^ Place Junior Engineering Capstone at the Madison Engineering xChange (Spring 2019)",
+              "blurb": "This award is given to the most innovative and broadly-reaching capstone team at the xChange, an annual symposium showcasing all Madison Engineering projects"
+            },
+            {
+              "header": "Dean's List (Fall 2015, Fall 2017, Fall 2018, Spring 2019, Fall 2019, Spring 2020)",
+              "blurb": "Awardeded to students with a semester GPA between 3.5 and 3.899"
+            },
+            {
+              "header": "President's List (Spring 2016)",
+              "blurb": "Awarded to students with a 3.9 or higher semester GPA"
             }
           ]
         }

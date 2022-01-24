@@ -1,13 +1,16 @@
 import React from "react";
 import styled from "styled-components";
+import { AboutMeSection } from "./components/about-me";
 import { Footer } from "./components/footer";
 import { Header } from "./components/header";
 import { Hero } from "./components/hero";
 import { Points } from "./components/points";
 import { Section } from "./components/section";
 import { SectionDivider } from "./components/section-divider";
-import resume from "./resume.json";
+import { convert } from "./format";
 import { ResumeTemplate } from "./types";
+import resume from "./resume.json";
+import { SkillSearch } from "./components/skill-search";
 
 const resumeJson = resume as ResumeTemplate;
 
@@ -20,35 +23,41 @@ const AppDiv = styled.div`
 `;
 
 const ContentDiv = styled.div`
-  width: 100%;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   position: fixed;
-  top: 60px;
+  top: 4em;
   bottom: 4em;
+  left: 0;
+  right: 0;
+  padding-bottom: 3em;
+  padding-top: 1em;
   background-color: #f5f5f5;
 `;
 
 export const App: React.FC = () => {
   return (
     <AppDiv>
-      <Header></Header>
+      <Header template={resumeJson} />
       <ContentDiv>
         <Hero
-          imageAlign="left"
-          imageSrc="/public/isaac-mexico-cropped.jpg"
-          text="Isaac J Miller"
+          imageSrc={resumeJson.info.heroImage}
+          text={resumeJson.info.fullName}
         ></Hero>
+        <SectionDivider id={"skills"}>Skills</SectionDivider>
+        <SkillSearch skills={resumeJson.skills}></SkillSearch>
         {resumeJson.sections.map((section, i) => {
           return (
             <>
-              <SectionDivider key={`sd-${i}`} id={`sd-${i}`}>
-                {section.header}
-              </SectionDivider>
+              <SectionDivider
+                key={`sd-${i}`}
+                id={`sd-${i}`}
+                dangerouslySetInnerHTML={convert(section.header)}
+              />
               {section.subSections.map((subSection, j) => {
                 return (
                   <Section
                     key={`s-${i}-${j}`}
-                    headerAlign={subSection.headerAlign}
                     subHeader={subSection.subHeader}
                     header={subSection.header}
                   >
@@ -61,8 +70,10 @@ export const App: React.FC = () => {
             </>
           );
         })}
+        <SectionDivider id={"aboutme"}>About Me</SectionDivider>
+        <AboutMeSection {...resumeJson.aboutMe}></AboutMeSection>
       </ContentDiv>
-      <Footer></Footer>
+      <Footer links={resumeJson.socialLinks} name={resumeJson.info.fullName} />
     </AppDiv>
   );
 };

@@ -1,11 +1,12 @@
 import React from "react";
 import styled from "styled-components";
+import { SocialLink } from "../types";
 import { SocialIcon } from "./icon";
 
 const AppFooter = styled.nav`
-  width: 100%;
+  width: 100vw;
   bottom: 0;
-  height: 3em;
+  height: 2em;
   font-family: "Patua One", helvetica;
   font-weight: bold;
   font-size: 24px;
@@ -27,23 +28,41 @@ const AppFooter = styled.nav`
 `;
 
 const Copyright = styled.div`
+  font-family: "Zilla Slab", serif;
+  font-size: 18px;
   position: absolute;
-  left: 0;
-  padding-left: 0.5em;
+  @media only screen and (min-width: 600px) {
+    left: 0;
+    padding-left: 0.5em;
+  }
+  @media only screen and (max-width: 600px) {
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+  }
 `;
 
-export const Footer: React.FC = () => {
+type Props = {
+  links: SocialLink[];
+  name: string;
+};
+
+export const Footer: React.FC<Props> = (props) => {
   return (
     <AppFooter>
-      <Copyright>©2022 by Isaac Miller</Copyright>
-      <SocialIcon
-        src="public/linkedin.png"
-        link="https://www.linkedin.com/in/isaac-j-miller/"
-      ></SocialIcon>
-      <SocialIcon
-        src="public/github.png"
-        link="https://github.com/isaac-j-miller/"
-      ></SocialIcon>
+      <Copyright>
+        ©{new Date().getFullYear()} by {props.name}
+      </Copyright>
+      {props.links.map((social, i) => (
+        <SocialIcon
+          src={social.icon}
+          link={social.link}
+          key={`social-${i}`}
+        ></SocialIcon>
+      ))}
     </AppFooter>
   );
 };
