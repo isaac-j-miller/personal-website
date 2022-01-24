@@ -1,0 +1,43 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write .",
+    "prettier-check": "prettier --check .",
+    "start": "webpack serve",
+    "build": "webpack build",
+    "check-ts": "tsc --noEmit",
+    "publish": "npm run build --production && cd dist && aws s3 cp --recursive --acl public-read . s3://isaac-j-miller"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaac-j-miller/personal-website.git"
+  },
+  "author": "Isaac J Miller",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/isaac-j-miller/personal-website/issues"
+  },
+  "homepage": "https://github.com/isaac-j-miller/personal-website#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@types/styled-components": "^5.1.21",
+    "copy-webpack-plugin": "^10.2.1",
+    "eslint": "^8.7.0",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "^2.5.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.1",
+    "styled-components": "^5.3.3",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.5",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3"
+  }
+}

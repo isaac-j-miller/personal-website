@@ -1,0 +1,174 @@
+{
+  "sections": [
+    {
+      "header": "Experience",
+      "subSections": [
+        {
+          "header": "Costar Group",
+          "headerAlign": "left",
+          "subHeader": "September 2020 – Current",
+          "points": [
+            {
+              "header": "Software Engineer (July 2021 – Current)",
+              "blurb": "After less than a year at the company, I was promoted from Associate Software Engineer to Software Engineer",
+              "items": []
+            },
+            {
+              "header": "Associate Software Engineer (September 2020 – July 2021)",
+              "items": [
+                "Architected and spearheaded development of session management system supplementary to OAUTH-2 that allows detection and prevention of software license abuse for hundreds of thousands of daily active users, as well as other session management features",
+                "Built spikes as proof-of-concept and transformed them into fully featured services",
+                "Designed and implemented efficient large-scale distributed cloud-based software systems",
+                "Used infrastructure-as-code tools to manage releases and deployments",
+                "Designed and implemented CI/CD pipelines in Azure DevOps for validating builds, running unit and integration tests, and deploying development, test, and production environments",
+                "Designed and implemented monorepo-based version management system to automatically publish individual sub-packages for shared code to company NPM repository based on dependency tree changes",
+                "Coordinated within and across engineering teams and management to gather and refine requirements, improve user experience, and decrease operational costs",
+                "Maintained, developed upon, and provided support for customer-focused, cloud-based report orchestration system",
+                "Wrote CLI scripts to automate pull request creation, validation, and completion",
+                "Migrated two projects from single-region AWS architecture to multi-region architecture",
+                "Wrote applications in Typescript and C#, and wrote DevOps scripts in bash and Python"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "InsurePro, LLC",
+          "subHeader": "April 2020 – Current",
+          "headerAlign": "left",
+          "points": [
+            {
+              "header": "Software Engineer (Part-time, September 2020 – Current)",
+              "items": []
+            },
+            {
+              "header": "Software Engineer (Contract, April 2020 – September 2020)",
+              "items": [
+                "Automated manual data analysis processes to save tens of person-hours of work per week",
+                "Set up, managed, and used CI/CD tools such as GitLab to use on on-premises server for git repository and automatic deployments of web applications to docker swarm",
+                "Developed automotive and home insurance comparative rating system web application for internal use",
+                "Developed internal web application for tracking agent commissions across multiple agency locations",
+                "Developed process for tracking customer retention, allowing agencies to significantly increase retention"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "James Madison University",
+          "subHeader": "May 2017 – April 2020",
+          "headerAlign": "left",
+          "points": [
+            {
+              "header": "Research Assistant",
+              "items": [
+                "Engineered and fabricated custom components for a helium nanodroplet isolation spectrometer",
+                "Designed, built, and coded (in C++) a microcontroller-based failsafe system for delicate scientific instruments",
+                "Automated laboratory procedures and data collection",
+                "Wrote open-source Python code for subtracting infrared spectra",
+                "Designed and implemented infrastructure for remotely controlling laboratory processes via the internet",
+                "Co-authored four peer-reviewed scientific publications, two of which I was the first author",
+                "Presented research findings at two international conferences, one national conference, and two regional conferences",
+                "Trained newer research assistants"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "Daikin Applied",
+          "subHeader": "May 2019 – December 2019",
+          "headerAlign": "left",
+          "points": [
+            {
+              "header": "Intern",
+              "blurb": "I was hired as an intern to audit boxes of equipment picked by warehouse employees, but I automated 80% of my job by developing a Python application to store, analyze, and report on warehouse data",
+              "items": [
+                "Designed and implemented application with GUI for tracking warehouse employee pick accuracy, analyzing daily and historical data, automatically generating detailed PDF reports, and distributing reports via email",
+                "Wrote detailed documentation tailored towards non-technical end-users of the application",
+                "Provided managers with new employee performance and item supply information gleaned by the application I developed, resulting in a significant increase in accuracy and performance"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "Education",
+      "subSections": [
+        {
+          "header": "James Madison University",
+          "subHeader": "Class of 2020",
+          "headerAlign": "left",
+          "points": [
+            {
+              "header": "B.S., Chemistry",
+              "items": []
+            },
+            {
+              "header": "B.S., Engineering",
+              "items": ["Minor in Mathematics", "3.7 GPA"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "Projects",
+      "subSections": [
+        {
+          "header": "Academic Projects",
+          "headerAlign": "left",
+          "points": [
+            {
+              "header": "Engineering Capstone (September 2018 – April 2020)",
+              "items": [
+                "Designed and implemented web application for uploading raw data and analyzing crop health using multispectral imagery",
+                "Designed and implemented data processing system for stitching together thousands of images into a mosaic and elevation map for visualizing changes in crop health over time",
+                "Managed client uploads of multi-gigabyte raw data to AWS S3 for automated processing"
+              ]
+            },
+            {
+              "header": "IoT Pedometer Project (January – April 2020)",
+              "items": [
+                "Designed, built, and programmed IoT pedometer which was able to track step counts with > 95% accuracy and transmit results wirelessly to a paired computer"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "Personal Projects",
+          "headerAlign": "left",
+          "points": [
+            {
+              "header": "lite-ci (January 2022 – Current)",
+              "items": [
+                "Designed and developed a lightweight, miniature CI server for self-hosted projects using Node.JS and Express",
+                "I plan to re-implement in Python to make installation easier for Raspberry Pi hobbyists"
+              ]
+            },
+            {
+              "header": "Smart Mirror (February 2020, January 2022)",
+              "items": [
+                "Designed, built, and coded a smart mirror for my partner using a Raspberry Pi",
+                "Recently re-worked the project to use my lite-ci package to incorporate CI/CD pipelines"
+              ]
+            },
+            {
+              "header": "Virtual HENDI Spectrometer (November 2020, August 2021)",
+              "items": [
+                "Designed and implemented an open-source simulation of a helium nanodroplet isolation spectrometer for teaching purposes",
+                "Re-worked project to utilize distributed architecture, migrating from an ECS-based app to S3/API Gateway/Lambda",
+                "Reduced cloud hosting costs from approximately $15 per month to approximately $0.50 per month (97%!)"
+              ]
+            },
+            {
+              "header": "C++ Projects (2018–2019)",
+              "items": [
+                "Wrote Galaga-inspired 2D shooter game in C++ and implemented functional physics system (2019)",
+                "Wrote console-based Tic-Tac-Toe game in C++ utilizing the Minimax algorithm (2018)"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
