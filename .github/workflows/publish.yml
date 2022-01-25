@@ -24,6 +24,7 @@ jobs:
 
       - name: publish
         run: |
+          mkdir dist || true
           cd dist
           aws s3 rm --recursive s3://isaac-j-miller.com
           aws s3 cp --recursive . s3://isaac-j-miller.com
