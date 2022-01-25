@@ -26,6 +26,9 @@ const SkillSearchDiv = styled.div`
   margin-bottom: 0.25em;
   padding-bottom: 0.25em;
   border-bottom: 1px solid black;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
   label {
     margin-top: auto;
     margin-bottom: auto;
@@ -157,7 +160,8 @@ export const SkillSearch: React.FC<{ skills: Skill[] }> = ({ skills }) => {
         <label htmlFor="skills">
           I've compiled a searchable list of some of my skills. Try searching
           for <i>coding</i>, <i>soft skills</i>, <i>music</i>, <i>devops</i>,{" "}
-          <i>engineering</i> or another category!
+          <i>engineering</i> or another category! Ask me about any skills that
+          aren't listed!
         </label>
         <input
           type="search"

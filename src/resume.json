@@ -26,15 +26,15 @@
       },
       {
         "subHeader": "I love to learn",
-        "text": "In all of my endeavors, I am constantly searching to expand my knowledge and abilities. At JMU, I found myself interested in everything STEM, so I took on two intense programs to graduate with degrees in Chemistry and Engineering as well as a minor in Mathematics. Outside of my work and formal education, you can find me reading, learning a new language, or crafting a new project. I am an avid reader, especially of history and sci-fi. In addition to programming languages, I have a deep interest in linguistics and human languages as well. Currently, I'm proficient in Spanish, currently learning German and Italian, and I've dabbled in Swedish and Norwegian. As for my craftsmanship, I recently started a small woodworking shop and have a few pieces to show for it. I also enjoy machining, 3D printing, and welding."
+        "text": "In all of my endeavors, I am constantly searching to expand my knowledge and abilities. At JMU, I found myself interested in everything STEM, so I took on two intense programs to graduate with degrees in Chemistry and Engineering as well as a minor in Mathematics. Outside of my work and formal education, you can find me reading, learning a new language, or crafting a new project. I am an avid reader, especially of history and sci-fi and I have a deep interest in linguistics and language as well. Currently, I'm proficient in Spanish, currently learning German and Italian, and I've dabbled in Swedish and Norwegian. As for my craftsmanship, I recently started a small woodworking shop and have a few pieces to show for it. I also enjoy machining, 3D printing, and welding."
       },
       {
         "subHeader": "I have a unique background",
-        "text": "Diversity in thought is one of an organization's greatest strengths. The more diverse the group is, the more unique ideas and perspectives are present in the amalgam, resulting in a more thorough, better thought-out, and more robust final product. I bring with me the unique experience of five years of chemistry education as well as four years of education in multidisciplinary engineering. I am well-versed in physics, thermodynamics, chemistry, engineering, mathematics, history, and programming, and I love to apply my knowledge to new problems."
+        "text": "Diversity in thought is one of an organization's greatest strengths. The more diverse a group is, the more unique ideas and perspectives are present in the amalgam, resulting in a more thorough, better thought-out, and more robust final product. I bring with me the unique experience of five years of chemistry education as well as four years of education in multidisciplinary engineering. I am well-versed in physics, thermodynamics, chemistry, engineering, mathematics, history, and programming, and I love to apply my knowledge to new problems."
       },
       {
         "subHeader": "I am constantly improving",
-        "text": "When I look at code I wrote years ago, I will often feel a slight sense of embarrassment: _\"Did I really write that?\"_ But when I look at my old code and I don't think that, I have a worse feeling: _\"Am I not improving?\"_ It is good to be embarrassed by the quality of your old code because that indicates that your standards and ability now are greater than when the code was written. Sometimes I laugh at the quality of some of my older projects on GitHub, but I leave them as a reminder of how far I've come, and how much further I will go."
+        "text": "When I look at code I wrote years ago, I will often feel a slight sense of embarrassment: _\"Did I really write that?\"_ But when I look at my old code and I don't think that, I have a worse feeling: _\"Am I not improving?\"_ It is good to be embarrassed by the quality of your old code because that indicates that your standards and ability now are greater than when the code was written. Sometimes I laugh at the quality of my older projects on GitHub, but I leave them as a reminder of how far I've come, and how much further I will go."
       }
     ]
   },
@@ -42,12 +42,23 @@
     {
       "name": "communication",
       "level": "expert",
-      "alt": ["soft skill", "teamwork"]
+      "alt": ["soft skill", "teamwork", "empathy", "leadership", "listening"]
+    },
+    {
+      "name": "leadership",
+      "level": "expert",
+      "alt": ["soft skill", "teamwork", "communication", "empathy", "listening"]
     },
     {
       "name": "teamwork",
       "level": "expert",
-      "alt": ["soft skill", "communication"]
+      "alt": [
+        "soft skill",
+        "communication",
+        "empathy",
+        "leadership",
+        "listening"
+      ]
     },
     {
       "name": "adaptability",
@@ -55,9 +66,19 @@
       "alt": ["soft skill", "problem solving", "automation"]
     },
     {
+      "name": "time management",
+      "level": "expert",
+      "alt": ["soft skill", "problem solving", "teamwork"]
+    },
+    {
       "name": "creativity",
       "level": "expert",
-      "alt": ["soft skill", "problem solving", "automation"]
+      "alt": ["soft skill", "problem solving", "automation", "leadership"]
+    },
+    {
+      "name": "trivia",
+      "level": "expert",
+      "alt": ["soft skill", "fun"]
     },
     {
       "name": "microsoft office",
@@ -77,7 +98,11 @@
         "coding",
         "development",
         "javascript",
-        "js"
+        "js",
+        "UI",
+        "UX",
+        "software engineering",
+        "computer science"
       ]
     },
     {
@@ -91,7 +116,9 @@
         "technologies",
         "technology",
         "coding",
-        "development"
+        "development",
+        "software engineering",
+        "computer science"
       ]
     },
     {
@@ -104,7 +131,14 @@
         "technology",
         "coding",
         "automation",
-        "development"
+        "development",
+        "data",
+        "data analysis",
+        "data science",
+        "UI",
+        "UX",
+        "software engineering",
+        "computer science"
       ]
     },
     {
@@ -120,7 +154,9 @@
         "technology",
         "coding",
         "development",
-        "javascript"
+        "javascript",
+        "software engineering",
+        "computer science"
       ]
     },
     {
@@ -137,7 +173,8 @@
         "development",
         "javascript",
         "js",
-        "build"
+        "build",
+        "software engineering"
       ]
     },
     {
@@ -152,7 +189,10 @@
         "technology",
         "coding",
         "development",
-        "javascript"
+        "javascript",
+        "computer science",
+        "server",
+        "api"
       ]
     },
     {
@@ -169,7 +209,11 @@
         "technology",
         "coding",
         "javascript",
-        "development"
+        "development",
+        "UI",
+        "UX",
+        "software engineering",
+        "computer science"
       ]
     },
     {
@@ -195,7 +239,8 @@
         "technology",
         "coding",
         "automation",
-        "development"
+        "development",
+        "computer science"
       ]
     },
     {
@@ -207,7 +252,26 @@
         "technologies",
         "technology",
         "coding",
-        "development"
+        "development",
+        "UI",
+        "UX",
+        "software engineering",
+        "computer science"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "proficient",
+      "alt": [
+        "web dev",
+        "frontend",
+        "technologies",
+        "technology",
+        "coding",
+        "development",
+        "UI",
+        "UX",
+        "computer science"
       ]
     },
     {
@@ -220,7 +284,9 @@
         "technology",
         "coding",
         "microsoft",
-        "development"
+        "development",
+        "software engineering",
+        "computer science"
       ]
     },
     {
@@ -233,47 +299,88 @@
         "technology",
         "coding",
         "microsoft",
-        "development"
+        "development",
+        "software engineering",
+        "computer science"
       ]
     },
 
     {
       "name": "i18n",
       "level": "proficient",
-      "alt": ["web dev", "frontend", "internationalization", "language"]
+      "alt": [
+        "web dev",
+        "frontend",
+        "internationalization",
+        "language",
+        "software engineering"
+      ]
     },
 
     {
       "name": "mathematics",
       "level": "proficient",
-      "alt": ["scalability", "scaling"]
+      "alt": ["scalability", "scaling", "software engineering"]
     },
-    { "name": "linear algebra", "level": "proficient", "alt": ["mathematics"] },
+    {
+      "name": "linear algebra",
+      "level": "proficient",
+      "alt": [
+        "mathematics",
+        "data analysis",
+        "data science",
+        "computer science"
+      ]
+    },
     {
       "name": "calculus",
       "level": "proficient",
-      "alt": ["mathematics", "automation"]
+      "alt": ["mathematics", "automation", "data analysis", "data science"]
     },
     {
       "name": "differential equations",
       "level": "proficient",
-      "alt": ["mathematics", "automation"]
+      "alt": ["mathematics", "automation", "data analysis", "data science"]
     },
 
     {
       "name": "object-oriented programming",
       "level": "proficient",
-      "alt": ["oop", "coding", "development"]
+      "alt": ["oop", "coding", "development", "software engineering"]
     },
     {
       "name": "distributed architecture",
       "level": "proficient",
-      "alt": ["devops", "scalability", "scaling"]
+      "alt": ["devops", "scalability", "scaling", "computer science"]
     },
     {
       "name": "cloud architecture",
       "level": "proficient",
-      "alt": ["devops", "scalability", "scaling"]
+      "alt": ["devops", "scalability", "scaling", "computer science"]
+    },
+    {
+      "name": "data structures",
+      "level": "intermediate",
+      "alt": [
+        "scalability",
+        "scaling",
+        "computer science",
+        "software engineering",
+        "coding",
+        "problem solving"
+      ]
+    },
+    {
+      "name": "algorithms",
+      "level": "intermediate",
+      "alt": [
+        "scalability",
+        "scaling",
+        "computer science",
+        "software engineering",
+        "coding",
+        "problem solving"
+      ]
     },
 
     {
@@ -284,7 +391,8 @@
         "technologies",
         "technology",
         "automation",
-        "development"
+        "development",
+        "tool"
       ]
     },
     {
@@ -302,7 +410,9 @@
         "technologies",
         "technology",
         "automation",
-        "development"
+        "development",
+        "computer",
+        "software engineering"
       ]
     },
     {
@@ -313,7 +423,9 @@
         "os",
         "technologies",
         "technology",
-        "development"
+        "development",
+        "computer",
+        "software engineering"
       ]
     },
     {
@@ -324,7 +436,8 @@
         "os",
         "technologies",
         "technology",
-        "microsoft"
+        "microsoft",
+        "computer"
       ]
     },
     {
@@ -335,7 +448,10 @@
         "source control",
         "technologies",
         "technology",
-        "development"
+        "development",
+        "software engineering",
+        "computer science",
+        "tool"
       ]
     },
     {
@@ -370,18 +486,26 @@
         "technologies",
         "technology",
         "automation",
-        "microsoft"
+        "microsoft",
+        "tool"
       ]
     },
     {
       "name": "gitlab ci/cd",
       "level": "proficient",
-      "alt": ["devops", "yaml", "technologies", "technology", "automation"]
+      "alt": [
+        "devops",
+        "yaml",
+        "technologies",
+        "technology",
+        "automation",
+        "tool"
+      ]
     },
     {
       "name": "ci/cd",
       "level": "proficient",
-      "alt": ["devops", "yaml", "automation"]
+      "alt": ["devops", "yaml", "automation", "computer science"]
     },
     {
       "name": "docker",
@@ -394,26 +518,37 @@
         "technology",
         "scalability",
         "scaling",
-        "automation"
+        "automation",
+        "software engineering",
+        "computer science"
       ]
     },
     {
       "name": "docker swarm",
       "level": "novice",
-      "alt": ["devops", "technologies", "technology", "scalability", "scaling"]
-    },
-
-    {
-      "name": "tfs",
-      "level": "proficient",
-      "alt": ["devops", "technologies", "technology", "automation"]
+      "alt": [
+        "devops",
+        "technologies",
+        "technology",
+        "scalability",
+        "scaling",
+        "computer science"
+      ]
     },
     {
       "name": "azure devops",
       "level": "proficient",
-      "alt": ["devops", "technologies", "technology", "automation", "microsoft"]
+      "alt": [
+        "devops",
+        "technologies",
+        "technology",
+        "automation",
+        "microsoft",
+        "tfs",
+        "team foundation server"
+      ]
     },
-    { "name": "agile methodology", "level": "proficient" },
+    { "name": "agile methodology", "level": "proficient", "alt": ["trello"] },
     {
       "name": "numpy",
       "level": "proficient",
@@ -426,8 +561,18 @@
         "technology",
         "coding",
         "automation",
-        "development"
+        "development",
+        "data analysis",
+        "data science",
+        "software engineering",
+        "computer science",
+        "science"
       ]
+    },
+    {
+      "name": "slack",
+      "level": "proficient",
+      "alt": ["teamwork", "communication"]
     },
     {
       "name": "django",
@@ -440,7 +585,26 @@
         "technologies",
         "technology",
         "coding",
-        "development"
+        "development",
+        "software engineering",
+        "computer science",
+        "server",
+        "api"
+      ]
+    },
+    {
+      "name": "aws s3",
+      "level": "expert",
+      "alt": [
+        "devops",
+        "technologies",
+        "technology",
+        "cloud",
+        "scalability",
+        "scaling",
+        "automation",
+        "amazon",
+        "storage"
       ]
     },
     {
@@ -453,19 +617,21 @@
         "cloud",
         "scalability",
         "scaling",
-        "automation"
+        "automation",
+        "amazon"
       ]
     },
     {
       "name": "aws lambda",
-      "level": "proficient",
+      "level": "expert",
       "alt": [
         "devops",
         "technologies",
         "technology",
         "cloud",
         "scalability",
-        "scaling"
+        "scaling",
+        "amazon"
       ]
     },
     {
@@ -477,13 +643,62 @@
         "technology",
         "cloud",
         "scalability",
-        "scaling"
+        "scaling",
+        "amazon",
+        "elastic container service",
+        "server"
+      ]
+    },
+    {
+      "name": "aws ec2",
+      "level": "intermediate",
+      "alt": [
+        "devops",
+        "technologies",
+        "technology",
+        "cloud",
+        "amazon",
+        "server"
+      ]
+    },
+    {
+      "name": "aws sqs",
+      "level": "expert",
+      "alt": [
+        "devops",
+        "technologies",
+        "technology",
+        "cloud",
+        "scalability",
+        "scaling",
+        "amazon",
+        "simple queue service"
+      ]
+    },
+    {
+      "name": "aws api gateway",
+      "level": "expert",
+      "alt": [
+        "devops",
+        "technologies",
+        "technology",
+        "cloud",
+        "scalability",
+        "scaling",
+        "amazon"
       ]
     },
     {
       "name": "aws ssm",
       "level": "proficient",
-      "alt": ["devops", "technologies", "technology", "cloud"]
+      "alt": [
+        "devops",
+        "technologies",
+        "technology",
+        "cloud",
+        "amazon",
+        "secure secrets manager"
+      ]
     },
     {
       "name": "aws alb",
@@ -494,38 +709,68 @@
         "technology",
         "cloud",
         "scalability",
-        "scaling"
+        "scaling",
+        "amazon",
+        "application load balancer"
       ]
     },
     {
       "name": "aws iam",
       "level": "proficient",
-      "alt": ["devops", "technologies", "technology", "cloud"]
+      "alt": [
+        "devops",
+        "technologies",
+        "technology",
+        "cloud",
+        "amazon",
+        "identity access management"
+      ]
     },
     {
       "name": "selenium",
       "level": "proficient",
-      "alt": ["webscraping", "webdriver", "technologies", "technology"]
+      "alt": ["webscraping", "webdriver", "technologies", "technology", "tool"]
     },
     {
       "name": "puppeteer",
       "level": "proficient",
-      "alt": ["webscraping", "webdriver", "technologies", "technology"]
+      "alt": ["webscraping", "webdriver", "technologies", "technology", "tool"]
     },
     {
       "name": "full-stack development",
       "level": "proficient",
-      "alt": ["web dev", "frontend", "backend", "coding"]
+      "alt": [
+        "web dev",
+        "frontend",
+        "backend",
+        "coding",
+        "software engineering",
+        "computer science"
+      ]
     },
     {
       "name": "frontend development",
       "level": "intermediate",
-      "alt": ["web dev", "frontend", "coding"]
+      "alt": [
+        "web dev",
+        "frontend",
+        "coding",
+        "software engineering",
+        "UI",
+        "UX",
+        "computer science"
+      ]
     },
     {
       "name": "backend development",
       "level": "proficient",
-      "alt": ["coding", "scalability", "scaling"]
+      "alt": [
+        "coding",
+        "scalability",
+        "scaling",
+        "software engineering",
+        "computer science"
+      ]
     },
 
     {
@@ -538,7 +783,10 @@
         "automation",
         "engineering",
         "development",
-        "soft skill"
+        "soft skill",
+        "software engineering",
+        "data structures",
+        "algorithms"
       ]
     },
 
@@ -551,7 +799,8 @@
         "technology",
         "automation",
         "iot",
-        "engineering"
+        "engineering",
+        "computer science"
       ]
     },
     {
@@ -564,7 +813,10 @@
         "technology",
         "automation",
         "iot",
-        "engineering"
+        "engineering",
+        "crafting",
+        "fun",
+        "computer science"
       ]
     },
     {
@@ -578,21 +830,34 @@
         "technology",
         "automation",
         "iot",
-        "engineering"
+        "engineering",
+        "crafting",
+        "fun",
+        "computer science",
+        "computer",
+        "linux"
       ]
     },
 
-    { "name": "woodworking", "level": "intermediate", "alt": ["engineering"] },
-    { "name": "machining", "level": "intermediate", "alt": ["engineering"] },
+    {
+      "name": "woodworking",
+      "level": "intermediate",
+      "alt": ["engineering", "crafting", "fun"]
+    },
+    {
+      "name": "machining",
+      "level": "intermediate",
+      "alt": ["engineering", "crafting", "fun"]
+    },
     {
       "name": "laser cutting",
       "level": "intermediate",
-      "alt": ["automation", "engineering"]
+      "alt": ["automation", "engineering", "crafting", "fun"]
     },
     {
       "name": "mig welding",
       "level": "intermediate",
-      "alt": ["engineering"]
+      "alt": ["engineering", "crafting", "fun"]
     },
     {
       "name": "additive manufacturing",
@@ -602,19 +867,29 @@
         "technologies",
         "technology",
         "automation",
-        "engineering"
+        "engineering",
+        "crafting",
+        "fun"
       ]
     },
-    { "name": "soldering", "level": "proficient", "alt": ["engineering"] },
-    { "name": "circuitry", "level": "intermediate", "alt": ["engineering"] },
+    {
+      "name": "soldering",
+      "level": "proficient",
+      "alt": ["engineering", "crafting", "fun"]
+    },
+    {
+      "name": "circuitry",
+      "level": "intermediate",
+      "alt": ["engineering", "crafting", "fun"]
+    },
 
-    { "name": "drums", "level": "proficient", "alt": ["music"] },
-    { "name": "saxophone", "level": "expert", "alt": ["music"] },
-    { "name": "guitar", "level": "intermediate", "alt": ["music"] },
+    { "name": "drums", "level": "proficient", "alt": ["music", "fun"] },
+    { "name": "saxophone", "level": "expert", "alt": ["music", "fun"] },
+    { "name": "guitar", "level": "intermediate", "alt": ["music", "fun"] },
     {
       "name": "keyboard",
       "level": "intermediate",
-      "alt": ["music", "piano"]
+      "alt": ["music", "piano", "fun"]
     },
 
     {
@@ -638,6 +913,11 @@
       "alt": ["language", "human language", "communication", "soft skill"]
     },
     {
+      "name": "norwegian",
+      "level": "novice",
+      "alt": ["language", "human language", "communication", "soft skill"]
+    },
+    {
       "name": "italian",
       "level": "novice",
       "alt": ["language", "human language", "communication", "soft skill"]
@@ -646,7 +926,16 @@
     {
       "name": "vim",
       "level": "proficient",
-      "alt": ["technologies", "technology", "coding", "development"]
+      "alt": [
+        "technologies",
+        "technology",
+        "coding",
+        "development",
+        "editor",
+        "software engineering",
+        "computer science",
+        "ide"
+      ]
     },
     {
       "name": "vscode",
@@ -657,7 +946,11 @@
         "technology",
         "coding",
         "microsoft",
-        "development"
+        "development",
+        "software engineering",
+        "editor",
+        "ide",
+        "tool"
       ]
     },
 
@@ -676,24 +969,25 @@
         "technology",
         "coding",
         "automation",
-        "engineering"
+        "engineering",
+        "science"
       ]
     },
     {
       "name": "laboratory techniques",
       "level": "proficient",
-      "alt": ["lab", "chemistry"]
+      "alt": ["lab", "chemistry", "science"]
     },
     {
       "name": "infrared spectroscopy",
       "level": "proficient",
-      "alt": ["ir", "spectroscopy", "chemistry"]
+      "alt": ["ir", "spectroscopy", "chemistry", "science"]
     },
 
     {
       "name": "jaeger",
       "level": "proficient",
-      "alt": ["tracing", "telemetry", "technologies", "technology"]
+      "alt": ["tracing", "telemetry", "technologies", "technology", "tool"]
     },
     {
       "name": "opentelemetry",
@@ -716,7 +1010,11 @@
         "technologies",
         "technology",
         "coding",
-        "development"
+        "development",
+        "data analysis",
+        "data science",
+        "software engineering",
+        "science"
       ]
     },
     {
@@ -728,7 +1026,10 @@
         "technologies",
         "technology",
         "coding",
-        "development"
+        "development",
+        "data analysis",
+        "data science",
+        "software engineering"
       ]
     },
     {
@@ -744,18 +1045,34 @@
         "coding",
         "scalability",
         "scaling",
-        "development"
+        "development",
+        "software engineering"
       ]
     },
     {
       "name": "nosql",
       "level": "intermediate",
-      "alt": ["database", "db", "technologies", "technology", "coding"]
+      "alt": [
+        "database",
+        "db",
+        "technologies",
+        "technology",
+        "coding",
+        "software engineering"
+      ]
     },
     {
       "name": "localstack",
       "level": "expert",
-      "alt": ["cloud", "aws", "technologies", "technology", "development"]
+      "alt": [
+        "cloud",
+        "aws",
+        "technologies",
+        "technology",
+        "development",
+        "software engineering",
+        "tool"
+      ]
     },
     {
       "name": "postgresql",
@@ -766,7 +1083,10 @@
         "technologies",
         "technology",
         "coding",
-        "development"
+        "development",
+        "data analysis",
+        "data science",
+        "software engineering"
       ]
     },
     {
@@ -777,7 +1097,7 @@
     {
       "name": "unix",
       "level": "proficient",
-      "alt": ["os", "operating system", "technologies", "technology"]
+      "alt": ["os", "operating system", "technologies", "technology", "event"]
     }
   ],
   "sections": [
@@ -790,11 +1110,11 @@
           "points": [
             {
               "header": "Software Engineer (July 2021 – Current)",
-              "blurb": "After less than a year at the company, I was promoted from Associate Software Engineer to Software Engineer",
               "items": []
             },
             {
               "header": "Associate Software Engineer (September 2020 – July 2021)",
+              "blurb": "After less than a year at the company, I was promoted from Associate Software Engineer to Software Engineer.",
               "items": [
                 "Architected and spearheaded development of session management system supplementary to OAUTH-2 that allows detection and prevention of software license abuse for hundreds of thousands of daily active users, as well as other session management features",
                 "Built spikes as proof-of-concept and transformed them into fully featured services",
@@ -806,7 +1126,8 @@
                 "Maintained, developed upon, and provided support for customer-focused, cloud-based report orchestration system",
                 "Wrote CLI scripts to automate pull request creation, validation, and completion",
                 "Migrated two projects from single-region AWS architecture to multi-region architecture",
-                "Wrote applications in Typescript and C#, and wrote DevOps scripts in bash and Python"
+                "Wrote applications in Typescript and C#, and wrote DevOps scripts in bash and Python",
+                "Spearheaded design and development of \"Application Vending Machine\" tool to automate creation of new templated repositories and sets of pipelines"
               ]
             }
           ]
@@ -816,11 +1137,7 @@
           "subHeader": "April 2020 – Current",
           "points": [
             {
-              "header": "Software Engineer (Part-time, September 2020 – Current)",
-              "items": []
-            },
-            {
-              "header": "Software Engineer (Contract, April 2020 – September 2020)",
+              "header": "Software Engineer (Contract)",
               "items": [
                 "Automated manual data analysis processes to save tens of person-hours of work per week",
                 "Set up, managed, and used CI/CD tools such as GitLab to use on on-premises server for git repository and automatic deployments of web applications to docker swarm",
@@ -855,8 +1172,8 @@
           "subHeader": "May 2019 – December 2019",
           "points": [
             {
-              "header": "Intern",
-              "blurb": "I was hired as an intern to audit boxes of equipment picked by warehouse employees, but I automated 80% of my job by developing a Python application to store, analyze, and report on warehouse data",
+              "header": "Audit and Automation Intern",
+              "blurb": "I was hired as an intern to audit boxes of equipment picked by warehouse employees, but I automated ~80% of my job by developing a Python application to store, analyze, and report on warehouse data.",
               "items": [
                 "Designed and implemented application with GUI for tracking warehouse employee pick accuracy, analyzing daily and historical data, automatically generating detailed PDF reports, and distributing reports via email",
                 "Wrote detailed documentation tailored towards non-technical end-users of the application",
@@ -880,7 +1197,6 @@
             },
             {
               "header": "B.S., Engineering",
-              "blurb": "When I graduated from high school in May, 2015, I did not know what I wanted to pursue in college. So I chose to major in chemistry because I enjoyed it in high school. My freshman year, I developed a deep appreciation for chemistry, and I joined a research lab my sophomore year. That same year, I became fascinated by the projects being done by the engineering students, so I dropped my chemistry major and switched to engineering. But by the end of the semester, I realized I loved my chemistry research and classes too much to quit, so I added chemistry as a second major. Four years later, I graduated with two degrees: one in chemistry, and another in engineering.",
               "items": ["Minor in Mathematics", "3.6 GPA"]
             }
           ]
@@ -904,8 +1220,8 @@
             {
               "header": "Smart Mirror (February 2020, January 2022)",
               "items": [
-                "Designed, built, and coded a smart mirror for my partner using a Raspberry Pi",
-                "Recently re-worked the project to use my lite-ci package to incorporate CI/CD pipelines",
+                "Designed, built, and coded a smart mirror using a Raspberry Pi",
+                "Recently re-worked the project to use my lite-ci package to incorporate CI/CD pipelines to keep the raspberry pi up-to-date without SSH-ing into it every time I push to main",
                 "GitHub repo [here](https://github.com/isaac-j-miller/mirror-v2)"
               ]
             },
@@ -924,7 +1240,8 @@
               "items": [
                 "Developed a 2D arcade-style game using C++",
                 "Built polymorphic collision detection functions for collisions between different types of objects (i.e. lines, points, polygons)",
-                "Developed realistic physics system, which accidentally resulted in an accurate simulation of gravity and orbit (in 2 dimensions)"
+                "Developed realistic physics system, which accidentally resulted in an accurate simulation of gravity and orbit (in 2 dimensions)",
+                "GitHub repo [here](https://github.com/isaac-j-miller/spaceships)"
               ]
             },
             {
@@ -951,10 +1268,11 @@
           "header": "Academic Projects",
           "points": [
             {
-              "header": "Engineering Capstone (September 2018 – April 2020)",
+              "header": "Aerial Multispectral Imaging Engineering Capstone (September 2018 – April 2020)",
+              "blurb": "Our capstone team sought to use autonomous drones mounted with multispectral cameras to survey vineyards and provide valuable information and guidance for fertilizer placement, water usage, and crop health. We also provided a custom-build UI for vineyard owners to manage and view their data.",
               "items": [
-                "Worked with a team of 8 in a 2-year long capstone project to design and build an autonomous aerial multispectral imaging platform.",
-                "Designed and implemented web application for uploading raw data and analyzing crop health using multispectral imagery",
+                "Worked with a team of 8 in a 2-year long capstone project to design and build an autonomous aerial multispectral imaging platform",
+                "Designed and implemented web application for uploading raw data, viewing GPS-based map overlays of multispectral data, and analyzing crop health using multispectral imagery",
                 "Designed and implemented data processing system for stitching together thousands of images into a mosaic and elevation map for visualizing changes in crop health over time",
                 "Managed client uploads of multi-gigabyte raw data to AWS S3 for automated processing",
                 "Developed Python backend for processing and serving multispectral crop data"
@@ -964,18 +1282,19 @@
               "header": "IoT Pedometer Project (September – December 2019)",
               "items": [
                 "Designed, built, and programmed IoT pedometer which was able to track step counts with > 95% accuracy and transmit results wirelessly to a paired computer",
-                "Wrote pedometer-side code in C++ with a cross-platform Python GUI client"
+                "Wrote pedometer-side code in C++ with a cross-platform Python GUI client",
+                "GitHub repo [here](https://github.com/isaac-j-miller/Pedometer)"
               ]
             },
             {
               "header": "Interlock for Interlock for Helium Nanodroplet Isolation Spectrometer (September 2018 – August 2019)",
               "items": [
-                "Independently designed and built a flexble, microcontroller-driven digital interlock system.",
-                "Wrote device firmware in C++ to prevent or mitigate damage to delicate scientific instruments in the case of malfunction.",
-                "Designed and implemented circuitry on a custom-made printed circuit board (Click here for the circuit diagram.)",
-                "Built a GUI using Python to modify Interlock configuration.",
-                "Wrote a comprehensive user manual to explain device features and troubleshoot problems.",
-                "Interfaced the microcontroller with a Raspberry Pi to connect to the internet and provide remote control over the lab."
+                "Independently designed and built a flexble, microcontroller-driven digital interlock system",
+                "Wrote device firmware in C++ to prevent or mitigate damage to delicate scientific instruments in the case of malfunction",
+                "Designed and implemented circuitry on a custom-made printed circuit board",
+                "Built a GUI using Python to modify Interlock configuration",
+                "Wrote a comprehensive user manual to explain device features and troubleshoot problems",
+                "Interfaced the microcontroller with a Raspberry Pi to connect to the internet and provide remote control over the lab"
               ]
             }
           ]

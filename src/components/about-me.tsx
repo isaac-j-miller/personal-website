@@ -11,6 +11,7 @@ const Headshot = styled.img`
   border-radius: 50%;
   @media only screen and (max-width: 600px) {
     width: 100%;
+    margin-bottom: 1em;
   }
 `;
 const Bio = styled.div`
