@@ -548,6 +548,11 @@
         "team foundation server"
       ]
     },
+    {
+      "name": "oauth-2",
+      "level": "intermediate",
+      "alt": ["authentication", "auth", "jwt", "security"]
+    },
     { "name": "agile methodology", "level": "proficient", "alt": ["trello"] },
     {
       "name": "numpy",
@@ -1269,7 +1274,7 @@
           "points": [
             {
               "header": "Aerial Multispectral Imaging Engineering Capstone (September 2018 – April 2020)",
-              "blurb": "Our capstone team sought to use autonomous drones mounted with multispectral cameras to survey vineyards and provide valuable information and guidance for fertilizer placement, water usage, and crop health. We also provided a custom-build UI for vineyard owners to manage and view their data.",
+              "blurb": "Our capstone team sought to use autonomous drones mounted with multispectral cameras to survey vineyards and provide valuable information and guidance for fertilizer placement, water usage, and crop health. We also provided a custom-built UI for vineyard owners to manage and view their data.",
               "items": [
                 "Worked with a team of 8 in a 2-year long capstone project to design and build an autonomous aerial multispectral imaging platform",
                 "Designed and implemented web application for uploading raw data, viewing GPS-based map overlays of multispectral data, and analyzing crop health using multispectral imagery",
