@@ -22,9 +22,11 @@ jobs:
       - name: check
         run: npm run check
 
+      - name: build
+        run: npm run build --production
+
       - name: publish
         run: |
-          mkdir dist || true
           cd dist
           aws s3 rm --recursive s3://isaac-j-miller.com
           aws s3 cp --recursive . s3://isaac-j-miller.com
