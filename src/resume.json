@@ -360,7 +360,7 @@
     },
     {
       "name": "data structures",
-      "level": "intermediate",
+      "level": "proficient",
       "alt": [
         "scalability",
         "scaling",
@@ -372,7 +372,7 @@
     },
     {
       "name": "algorithms",
-      "level": "intermediate",
+      "level": "proficient",
       "alt": [
         "scalability",
         "scaling",
@@ -552,6 +552,20 @@
       "name": "oauth-2",
       "level": "intermediate",
       "alt": ["authentication", "auth", "jwt", "security"]
+    },
+    {
+      "name": "jest",
+      "level": "expert",
+      "alt": [
+        "testing",
+        "javascript",
+        "typescript",
+        "unit",
+        "integration",
+        "mocha",
+        "js",
+        "ts"
+      ]
     },
     { "name": "agile methodology", "level": "proficient", "alt": ["trello"] },
     {
@@ -734,12 +748,30 @@
     {
       "name": "selenium",
       "level": "proficient",
-      "alt": ["webscraping", "webdriver", "technologies", "technology", "tool"]
+      "alt": [
+        "webscraping",
+        "webdriver",
+        "technologies",
+        "technology",
+        "tool",
+        "test",
+        "regression",
+        "UI"
+      ]
     },
     {
       "name": "puppeteer",
       "level": "proficient",
-      "alt": ["webscraping", "webdriver", "technologies", "technology", "tool"]
+      "alt": [
+        "webscraping",
+        "webdriver",
+        "technologies",
+        "technology",
+        "tool",
+        "test",
+        "regression",
+        "UI"
+      ]
     },
     {
       "name": "full-stack development",
