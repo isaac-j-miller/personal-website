@@ -20,10 +20,10 @@ const Bio = styled.div`
 
 export const AboutMeSection: React.FC<AboutMe> = (props) => {
   return (
-    <Bio>
+    <Bio key="bio">
       <Headshot src={props.headshot} />
       {props.sections.map((section, i) => (
-        <>
+        <span key={`about-me-${i}`}>
           {section.subHeader && (
             <SubHeader
               key={`aboutme-sh-${i}`}
@@ -34,7 +34,7 @@ export const AboutMeSection: React.FC<AboutMe> = (props) => {
             key={`aboutme-text-${i}`}
             dangerouslySetInnerHTML={convert(section.text)}
           />
-        </>
+        </span>
       ))}
     </Bio>
   );

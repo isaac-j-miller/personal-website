@@ -2,7 +2,7 @@
   "name": "personal-website",
   "version": "1.0.0",
   "description": "My personal website",
-  "main": "index.js",
+  "main": "src/index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier": "prettier --write .",
@@ -10,6 +10,8 @@
     "start": "webpack serve",
     "build": "webpack build",
     "check-ts": "tsc --noEmit",
+    "lint": "eslint ./src/**/* --ext .ts --ext .tsx",
+    "check": "npm run prettier-check && npm run check-ts && npm run lint",
     "publish": "npm run build --production && cd dist && aws s3 cp --recursive --acl public-read . s3://isaac-j-miller"
   },
   "repository": {
@@ -22,6 +24,14 @@
     "url": "https://github.com/isaac-j-miller/personal-website/issues"
   },
   "homepage": "https://github.com/isaac-j-miller/personal-website#readme",
+  "dependencies": {
+    "markdown-it": "^12.3.2",
+    "markdown-it-sup": "^1.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.1",
+    "styled-components": "^5.3.3"
+  },
   "devDependencies": {
     "@types/markdown-it": "^12.2.3",
     "@types/react": "^17.0.38",
@@ -30,13 +40,7 @@
     "copy-webpack-plugin": "^10.2.1",
     "eslint": "^8.7.0",
     "html-webpack-plugin": "^5.5.0",
-    "markdown-it": "^12.3.2",
-    "markdown-it-sup": "^1.0.0",
     "prettier": "^2.5.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-router-dom": "^6.2.1",
-    "styled-components": "^5.3.3",
     "ts-loader": "^9.2.6",
     "typescript": "^4.5.5",
     "webpack": "^5.67.0",

@@ -46,7 +46,7 @@ export const App: React.FC = () => {
         ></Hero>
         {resumeJson.sections.map((section, i) => {
           return (
-            <>
+            <span key={`span-section-${i}`}>
               <SectionDivider
                 key={`sd-${i}`}
                 id={`sd-${i}`}
@@ -65,7 +65,7 @@ export const App: React.FC = () => {
                   </Section>
                 );
               })}
-            </>
+            </span>
           );
         })}
         <SectionDivider id={"aboutme"}>About Me</SectionDivider>
