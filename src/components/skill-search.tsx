@@ -36,10 +36,6 @@ const SkillSearchDiv = styled.div`
   input {
     position: relative;
     height: 2em;
-    width: 15em;
-    @media only screen and (max-width: 600px) {
-      width: 100%;
-    }
   }
 `;
 const ExpandBox = styled.div<{ expanded: boolean }>`
