@@ -42,7 +42,6 @@ const HorizLinks = styled.div`
     margin-right: 1em;
     transition: 0.2s;
     text-align: center;
-    text-wrap: break-word;
   }
   div:hover {
     opacity: 80%;
@@ -120,9 +119,6 @@ export const Header: React.FC<HeaderProps> = (props) => {
   }, [isOpen]);
   const onClick = isOpen ? () => setOpen(false) : undefined;
   const elements = [
-    <a href={"#skills"} key={`link-#skills`} onClick={onClick}>
-      Skills
-    </a>,
     ...props.template.sections.map((section, i) => (
       <a
         href={`#sd-${i}`}
@@ -133,6 +129,9 @@ export const Header: React.FC<HeaderProps> = (props) => {
     )),
     <a href={"#aboutme"} key={`link-#aboutme`} onClick={onClick}>
       About Me
+    </a>,
+    <a href={"#skills"} key={`link-#skills`} onClick={onClick}>
+      Skills
     </a>,
   ];
   if (isMobile) {

@@ -6,6 +6,7 @@ import { SkillPill } from "./skill-pill";
 const SkillBoxDiv = styled.div`
   flex-flow: row wrap;
   display: flex;
+  justify-content: space-evenly;
 `;
 const SkillSearchBox = styled.div`
   @media only screen and (min-width: 600px) {
@@ -37,9 +38,8 @@ const SkillSearchDiv = styled.div`
 `;
 const ExpandBox = styled.div<{ expanded: boolean }>`
   border-radius: 10px;
-  box-shadow: inset 0 0 2px 0 rgba(255, 255, 255, 0.4),
-    inset 0 0 3px 0 rgba(0, 0, 0, 0.4), inset 0 0 3px 5px rgba(0, 0, 0, 0.05),
-    2px 2px 4px 0 rgba(0, 0, 0, 0.25);
+
+  transition: 0.5s linear;
   div.expandTitle {
     font-family: "Zilla Slab", serif;
     width: 100%;
@@ -54,7 +54,7 @@ const ExpandBox = styled.div<{ expanded: boolean }>`
   }
   div.skillBox {
     overflow: hidden;
-    transition: 0.25s;
+    transition: 0.5s linear;
     position: relative;
   }
   ${({ expanded }) =>
@@ -65,7 +65,9 @@ const ExpandBox = styled.div<{ expanded: boolean }>`
         `
       : css`
           div.skillBox {
-            height: 20vh;
+            @media only screen and (max-width: 600px) {
+              height: 40vh;
+            }
           }
           div.skillBox:after {
             position: absolute;
@@ -75,8 +77,8 @@ const ExpandBox = styled.div<{ expanded: boolean }>`
             right: 0;
             background: linear-gradient(
               to top,
-              rgba(255, 255, 255, 0.8) 20%,
-              rgba(255, 255, 255, 0) 80%
+              rgba(245, 245, 245, 0.95) 10%,
+              rgba(245, 245, 245, 0) 80%
             );
             border-radius: 10px;
             content: "";
@@ -84,31 +86,22 @@ const ExpandBox = styled.div<{ expanded: boolean }>`
         `}
 `;
 
-const SkillBox: React.FC<{ skills: Skill[] }> = ({ skills }) => {
-  const isMobile = window.matchMedia(
-    "only screen and (max-width: 600px)"
-  ).matches;
-  const [expanded, setExpanded] = React.useState<boolean>(false);
+const SkillBox: React.FC<{ skills: Skill[]; search: string }> = ({
+  skills,
+  search,
+}) => {
+  const expanded = search !== "" && search !== undefined;
   const skillPills = skills.map((skill, i) => (
     <SkillPill {...skill} key={`skill-${i}`}></SkillPill>
   ));
-  if (!isMobile) {
-    if (skills.length) {
-      return <SkillBoxDiv>{skillPills}</SkillBoxDiv>;
-    }
-    return (
-      <SkillBoxDiv>Sorry, no skills found matching the criteria!</SkillBoxDiv>
-    );
-  }
   return (
     <ExpandBox expanded={expanded}>
-      <div className="expandTitle" onClick={() => setExpanded(!expanded)}>
-        {expanded ? "Collapse [-]" : "Expand [+]"}
-      </div>
       {skills.length ? (
         <SkillBoxDiv className={"skillBox"}>{skillPills}</SkillBoxDiv>
       ) : (
-        <SkillBoxDiv>Sorry, no skills found matching the criteria!</SkillBoxDiv>
+        <SkillBoxDiv>
+          Oops, I might have missed that one! You should ask me about it!
+        </SkillBoxDiv>
       )}
     </ExpandBox>
   );
@@ -136,8 +129,10 @@ const match = (str1: string, str2: string): boolean => {
 
 export const SkillSearch: React.FC<{ skills: Skill[] }> = ({ skills }) => {
   const [currentSkills, setCurrentSkills] = React.useState<Skill[]>(skills);
+  const [search, setSearch] = React.useState<string>("");
   const useSearch = (evt: React.ChangeEvent<HTMLInputElement>) => {
     const { value } = evt.target;
+    setSearch(value);
     if (!value) {
       setCurrentSkills(skills.sort(randomSort));
       return;
@@ -149,6 +144,7 @@ export const SkillSearch: React.FC<{ skills: Skill[] }> = ({ skills }) => {
         const alts = skill.alt ?? [];
         return (
           match(normalized, normalizedSkill) ||
+          match(normalized, skill.level) ||
           alts.some((alt) => match(normalized, normalize(alt)))
         );
       })
@@ -159,8 +155,9 @@ export const SkillSearch: React.FC<{ skills: Skill[] }> = ({ skills }) => {
     <SkillSearchBox>
       <SkillSearchDiv>
         <label htmlFor="skills">
-          For your convenience, I've compiled a searchable list of some of my
-          skills. Try searching for some!
+          I've compiled a searchable list of some of my skills. Try searching
+          for <i>coding</i>, <i>soft skills</i>, <i>music</i>, <i>devops</i>,{" "}
+          <i>engineering</i> or another category!
         </label>
         <input
           type="search"
@@ -170,7 +167,7 @@ export const SkillSearch: React.FC<{ skills: Skill[] }> = ({ skills }) => {
         />
       </SkillSearchDiv>
 
-      <SkillBox skills={currentSkills}></SkillBox>
+      <SkillBox skills={currentSkills} search={search}></SkillBox>
     </SkillSearchBox>
   );
 };

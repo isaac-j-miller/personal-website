@@ -31,7 +31,7 @@ export type AboutMe = {
 };
 export const skillLevels = [
   "novice",
-  "advanced-beginner",
+  "intermediate",
   "competent",
   "proficient",
   "expert",

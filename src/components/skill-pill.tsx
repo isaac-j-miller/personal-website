@@ -41,12 +41,10 @@ const getColor = (skillLevel: SkillLevel): string => {
   switch (skillLevel) {
     case "novice":
       return "white";
-    case "advanced-beginner":
-      return "yellow";
-    case "competent":
-      return "cyan";
+    case "intermediate":
+      return "orange";
     case "proficient":
-      return "blue";
+      return "yellow";
     case "expert":
       return "green";
     default:

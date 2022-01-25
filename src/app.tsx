@@ -44,8 +44,6 @@ export const App: React.FC = () => {
           imageSrc={resumeJson.info.heroImage}
           text={resumeJson.info.fullName}
         ></Hero>
-        <SectionDivider id={"skills"}>Skills</SectionDivider>
-        <SkillSearch skills={resumeJson.skills}></SkillSearch>
         {resumeJson.sections.map((section, i) => {
           return (
             <>
@@ -72,6 +70,8 @@ export const App: React.FC = () => {
         })}
         <SectionDivider id={"aboutme"}>About Me</SectionDivider>
         <AboutMeSection {...resumeJson.aboutMe}></AboutMeSection>
+        <SectionDivider id={"skills"}>Skills</SectionDivider>
+        <SkillSearch skills={resumeJson.skills}></SkillSearch>
       </ContentDiv>
       <Footer links={resumeJson.socialLinks} name={resumeJson.info.fullName} />
     </AppDiv>

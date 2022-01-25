@@ -22,23 +22,48 @@
     "sections": [
       {
         "subHeader": "I am a skilled and experienced engineer",
-        "text": "I am a forward-thinking, detail-oriented Software Engineer with DevOps experience, a reputation for writing well-tested, well-documented, reliable, and clean code and infrastructure. I am passionate about designing for scalability and automating things. I'm fluent in Typescript and Python and experienced with C# and C++. I am a team player focused on building robust, scalable systems, completing project objectives within their deadlines, and writing detailed documentation for other teams."
+        "text": "I am a forward-thinking, detail-oriented Software Engineer with DevOps experience, a reputation for writing well-tested, well-documented, reliable, and clean code and infrastructure. I am passionate about designing for scalability and automating things. I'm fluent in Typescript and Python and experienced with C# and C++. I am a team player focused on building robust, scalable systems, completing project objectives within their deadlines, and writing detailed documentation for others."
       },
       {
         "subHeader": "I love to learn",
-        "text": "I am constantly searching to expand my knowledge and abilities. I completed two intense bachelors degrees simultaneously because I just couldn't get enough. I am an avid reader, especially of history and sci-fi. In addition to programming languages, I have a deep interest in human languages as well. I enjoy reading about linguistics and learning new languages. I'm proficient in Spanish, and I am currently learning German. I've dabbled in Swedish and Italian as well.\nI also enjoy woodworking, machining, and welding. I love to make things with my hands. Several of the furniture pieces in my home were built by me."
+        "text": "In all of my endeavors, I am constantly searching to expand my knowledge and abilities. At JMU, I found myself interested in everything STEM, so I took on two intense programs to graduate with degrees in Chemistry and Engineering as well as a minor in Mathematics. Outside of my work and formal education, you can find me reading, learning a new language, or crafting a new project. I am an avid reader, especially of history and sci-fi. In addition to programming languages, I have a deep interest in linguistics and human languages as well. Currently, I'm proficient in Spanish, currently learning German and Italian, and I've dabbled in Swedish and Norwegian. As for my craftsmanship, I recently started a small woodworking shop and have a few pieces to show for it. I also enjoy machining, 3D printing, and welding."
       },
       {
         "subHeader": "I have a unique background",
-        "text": "Diversity in thought is one of an organization's greatest strengths. When people from a variety of backgrounds come together to create something, everyone's preconceptions, ideas, and ways of thinking collide, and are merged into a final product which benefits from the combined experience, knowledge, and perspective of all the people involved. The more diverse the group is, the more unique ideas and perspectives are present in the amalgam, resulting in a more thorough, better thought-out, and more robust final product. I bring with me the unique experience of five years of chemistry education and four years of education in general engineering. I am well-versed in physics, thermodynamics, chemistry, engineering, mathematics, history, and programming, and I love to apply my knowledge to new problems."
+        "text": "Diversity in thought is one of an organization's greatest strengths. The more diverse the group is, the more unique ideas and perspectives are present in the amalgam, resulting in a more thorough, better thought-out, and more robust final product. I bring with me the unique experience of five years of chemistry education as well as four years of education in multidisciplinary engineering. I am well-versed in physics, thermodynamics, chemistry, engineering, mathematics, history, and programming, and I love to apply my knowledge to new problems."
       },
       {
         "subHeader": "I am constantly improving",
-        "text": "When I look at code I wrote years ago, I will often feel a slight sense of embarrassment: _\"Did I really write that?\"_ But when I look at my old code and I don't think that, I have a worse feeling: _\"Am I not improving?\"_ It is good to be embarrassed by the quality of one's old code because that indicates that one's standards and ability now are greater than when the code was written because it means that one is improving. I am a little ashamed of some of my older projects on GitHub, but I leave them as a reminder of how far I've come."
+        "text": "When I look at code I wrote years ago, I will often feel a slight sense of embarrassment: _\"Did I really write that?\"_ But when I look at my old code and I don't think that, I have a worse feeling: _\"Am I not improving?\"_ It is good to be embarrassed by the quality of your old code because that indicates that your standards and ability now are greater than when the code was written. Sometimes I laugh at the quality of some of my older projects on GitHub, but I leave them as a reminder of how far I've come, and how much further I will go."
       }
     ]
   },
   "skills": [
+    {
+      "name": "communication",
+      "level": "expert",
+      "alt": ["soft skill", "teamwork"]
+    },
+    {
+      "name": "teamwork",
+      "level": "expert",
+      "alt": ["soft skill", "communication"]
+    },
+    {
+      "name": "adaptability",
+      "level": "expert",
+      "alt": ["soft skill", "problem solving", "automation"]
+    },
+    {
+      "name": "creativity",
+      "level": "expert",
+      "alt": ["soft skill", "problem solving", "automation"]
+    },
+    {
+      "name": "microsoft office",
+      "level": "expert",
+      "alt": ["microsoft", "communication", "teamwork"]
+    },
     {
       "name": "typescript",
       "level": "expert",
@@ -47,8 +72,12 @@
         "programming language",
         "web dev",
         "frontend",
-        "technogies",
-        "technology"
+        "technologies",
+        "technology",
+        "coding",
+        "development",
+        "javascript",
+        "js"
       ]
     },
     {
@@ -59,14 +88,24 @@
         "programming language",
         "web dev",
         "frontend",
-        "technogies",
-        "technology"
+        "technologies",
+        "technology",
+        "coding",
+        "development"
       ]
     },
     {
       "name": "python",
       "level": "proficient",
-      "alt": ["programming language", "backend", "technogies", "technology"]
+      "alt": [
+        "programming language",
+        "backend",
+        "technologies",
+        "technology",
+        "coding",
+        "automation",
+        "development"
+      ]
     },
     {
       "name": "node.js",
@@ -77,8 +116,11 @@
         "backend",
         "library",
         "libraries",
-        "technogies",
-        "technology"
+        "technologies",
+        "technology",
+        "coding",
+        "development",
+        "javascript"
       ]
     },
     {
@@ -89,8 +131,13 @@
         "node",
         "library",
         "libraries",
-        "technogies",
-        "technology"
+        "technologies",
+        "technology",
+        "coding",
+        "development",
+        "javascript",
+        "js",
+        "build"
       ]
     },
     {
@@ -101,8 +148,11 @@
         "backend",
         "library",
         "libraries",
-        "technogies",
-        "technology"
+        "technologies",
+        "technology",
+        "coding",
+        "development",
+        "javascript"
       ]
     },
     {
@@ -115,96 +165,224 @@
         "libraries",
         "web dev",
         "frontend",
-        "technogies",
-        "technology"
+        "technologies",
+        "technology",
+        "coding",
+        "javascript",
+        "development"
       ]
     },
     {
       "name": "bash",
-      "level": "competent",
-      "alt": ["devops", "shell", "unix", "linux", "technogies", "technology"]
+      "level": "proficient",
+      "alt": [
+        "devops",
+        "shell",
+        "unix",
+        "linux",
+        "technologies",
+        "technology",
+        "development"
+      ]
     },
     {
       "name": "C++",
-      "level": "competent",
-      "alt": ["programming language", "backend", "technogies", "technology"]
+      "level": "proficient",
+      "alt": [
+        "programming language",
+        "backend",
+        "technologies",
+        "technology",
+        "coding",
+        "automation",
+        "development"
+      ]
     },
     {
       "name": "html",
       "level": "proficient",
-      "alt": ["web dev", "frontend", "technogies", "technology"]
+      "alt": [
+        "web dev",
+        "frontend",
+        "technologies",
+        "technology",
+        "coding",
+        "development"
+      ]
     },
     {
       "name": "C#",
-      "level": "advanced-beginner",
-      "alt": ["programming language", "backend", "technogies", "technology"]
+      "level": "intermediate",
+      "alt": [
+        "programming language",
+        "backend",
+        "technologies",
+        "technology",
+        "coding",
+        "microsoft",
+        "development"
+      ]
     },
     {
       "name": ".NET Core",
-      "level": "advanced-beginner",
-      "alt": ["dotnet", "backend", "technogies", "technology"]
+      "level": "intermediate",
+      "alt": [
+        "dotnet",
+        "backend",
+        "technologies",
+        "technology",
+        "coding",
+        "microsoft",
+        "development"
+      ]
     },
 
     {
       "name": "i18n",
       "level": "proficient",
-      "alt": ["web dev", "frontend", "internationalization"]
+      "alt": ["web dev", "frontend", "internationalization", "language"]
     },
 
-    { "name": "mathematics", "level": "proficient", "alt": [] },
-    { "name": "linear algebra", "level": "competent", "alt": ["mathematics"] },
-    { "name": "calculus", "level": "proficient", "alt": ["mathematics"] },
+    {
+      "name": "mathematics",
+      "level": "proficient",
+      "alt": ["scalability", "scaling"]
+    },
+    { "name": "linear algebra", "level": "proficient", "alt": ["mathematics"] },
+    {
+      "name": "calculus",
+      "level": "proficient",
+      "alt": ["mathematics", "automation"]
+    },
     {
       "name": "differential equations",
-      "level": "competent",
-      "alt": ["mathematics"]
+      "level": "proficient",
+      "alt": ["mathematics", "automation"]
     },
 
     {
       "name": "object-oriented programming",
       "level": "proficient",
-      "alt": ["oop"]
+      "alt": ["oop", "coding", "development"]
     },
-    { "name": "distributed architecture", "level": "proficient" },
-    { "name": "cloud architecture", "level": "proficient" },
+    {
+      "name": "distributed architecture",
+      "level": "proficient",
+      "alt": ["devops", "scalability", "scaling"]
+    },
+    {
+      "name": "cloud architecture",
+      "level": "proficient",
+      "alt": ["devops", "scalability", "scaling"]
+    },
 
     {
       "name": "terraform",
-      "level": "competent",
-      "alt": ["devops", "technogies", "technology"]
+      "level": "proficient",
+      "alt": [
+        "devops",
+        "technologies",
+        "technology",
+        "automation",
+        "development"
+      ]
     },
-    { "name": "documentation", "level": "expert", "alt": ["writing", "team"] },
+    {
+      "name": "documentation",
+      "level": "expert",
+      "alt": ["writing", "team", "communication", "teamwork", "development"]
+    },
     {
       "name": "linux",
       "level": "proficient",
-      "alt": ["devops", "operating system", "os", "technogies", "technology"]
+      "alt": [
+        "devops",
+        "operating system",
+        "os",
+        "technologies",
+        "technology",
+        "automation",
+        "development"
+      ]
     },
     {
       "name": "mac",
       "level": "proficient",
-      "alt": ["operating system", "os", "technogies", "technology"]
+      "alt": [
+        "operating system",
+        "os",
+        "technologies",
+        "technology",
+        "development"
+      ]
     },
     {
       "name": "windows",
-      "level": "competent",
-      "alt": ["operating system", "os", "technogies", "technology"]
+      "level": "proficient",
+      "alt": [
+        "operating system",
+        "os",
+        "technologies",
+        "technology",
+        "microsoft"
+      ]
     },
     {
       "name": "git",
       "level": "proficient",
-      "alt": ["version control", "source control", "technogies", "technology"]
+      "alt": [
+        "version control",
+        "source control",
+        "technologies",
+        "technology",
+        "development"
+      ]
+    },
+    {
+      "name": "github",
+      "level": "proficient",
+      "alt": [
+        "version control",
+        "source control",
+        "technologies",
+        "technology",
+        "microsoft",
+        "development"
+      ]
+    },
+    {
+      "name": "gitlab",
+      "level": "proficient",
+      "alt": [
+        "version control",
+        "source control",
+        "technologies",
+        "technology",
+        "development"
+      ]
     },
     {
       "name": "github actions",
       "level": "proficient",
-      "alt": ["devops", "yaml", "technogies", "technology"]
+      "alt": [
+        "devops",
+        "yaml",
+        "technologies",
+        "technology",
+        "automation",
+        "microsoft"
+      ]
     },
     {
       "name": "gitlab ci/cd",
       "level": "proficient",
-      "alt": ["devops", "yaml", "technogies", "technology"]
+      "alt": ["devops", "yaml", "technologies", "technology", "automation"]
     },
-    { "name": "ci/cd", "level": "proficient", "alt": ["devops", "yaml"] },
+    {
+      "name": "ci/cd",
+      "level": "proficient",
+      "alt": ["devops", "yaml", "automation"]
+    },
     {
       "name": "docker",
       "level": "proficient",
@@ -212,27 +390,30 @@
         "containerization",
         "containers",
         "devops",
-        "technogies",
-        "technology"
+        "technologies",
+        "technology",
+        "scalability",
+        "scaling",
+        "automation"
       ]
     },
     {
       "name": "docker swarm",
       "level": "novice",
-      "alt": ["devops", "technogies", "technology"]
+      "alt": ["devops", "technologies", "technology", "scalability", "scaling"]
     },
 
     {
       "name": "tfs",
       "level": "proficient",
-      "alt": ["devops", "technogies", "technology"]
+      "alt": ["devops", "technologies", "technology", "automation"]
     },
     {
       "name": "azure devops",
       "level": "proficient",
-      "alt": ["devops", "technogies", "technology"]
+      "alt": ["devops", "technologies", "technology", "automation", "microsoft"]
     },
-    { "name": "agile methodology", "level": "competent" },
+    { "name": "agile methodology", "level": "proficient" },
     {
       "name": "numpy",
       "level": "proficient",
@@ -241,165 +422,261 @@
         "data",
         "library",
         "libraries",
-        "technogies",
-        "technology"
+        "technologies",
+        "technology",
+        "coding",
+        "automation",
+        "development"
       ]
     },
     {
       "name": "django",
-      "level": "competent",
+      "level": "intermediate",
       "alt": [
         "python",
         "backend",
         "library",
         "libraries",
-        "technogies",
-        "technology"
+        "technologies",
+        "technology",
+        "coding",
+        "development"
       ]
     },
     {
       "name": "aws",
       "level": "proficient",
-      "alt": ["devops", "technogies", "technology", "cloud"]
+      "alt": [
+        "devops",
+        "technologies",
+        "technology",
+        "cloud",
+        "scalability",
+        "scaling",
+        "automation"
+      ]
     },
     {
       "name": "aws lambda",
       "level": "proficient",
-      "alt": ["devops", "technogies", "technology", "cloud"]
+      "alt": [
+        "devops",
+        "technologies",
+        "technology",
+        "cloud",
+        "scalability",
+        "scaling"
+      ]
     },
     {
       "name": "aws ecs",
       "level": "proficient",
-      "alt": ["devops", "technogies", "technology", "cloud"]
+      "alt": [
+        "devops",
+        "technologies",
+        "technology",
+        "cloud",
+        "scalability",
+        "scaling"
+      ]
     },
     {
       "name": "aws ssm",
       "level": "proficient",
-      "alt": ["devops", "technogies", "technology", "cloud"]
+      "alt": ["devops", "technologies", "technology", "cloud"]
     },
     {
       "name": "aws alb",
       "level": "proficient",
-      "alt": ["devops", "technogies", "technology", "cloud"]
+      "alt": [
+        "devops",
+        "technologies",
+        "technology",
+        "cloud",
+        "scalability",
+        "scaling"
+      ]
     },
     {
       "name": "aws iam",
       "level": "proficient",
-      "alt": ["devops", "technogies", "technology", "cloud"]
+      "alt": ["devops", "technologies", "technology", "cloud"]
     },
     {
       "name": "selenium",
       "level": "proficient",
-      "alt": ["webscraping", "webdriver", "technogies", "technology"]
+      "alt": ["webscraping", "webdriver", "technologies", "technology"]
     },
     {
       "name": "puppeteer",
       "level": "proficient",
-      "alt": ["webscraping", "webdriver", "technogies", "technology"]
+      "alt": ["webscraping", "webdriver", "technologies", "technology"]
     },
     {
       "name": "full-stack development",
       "level": "proficient",
-      "alt": ["web dev", "frontend", "backend"]
+      "alt": ["web dev", "frontend", "backend", "coding"]
     },
     {
       "name": "frontend development",
-      "level": "competent",
-      "alt": ["web dev", "frontend"]
+      "level": "intermediate",
+      "alt": ["web dev", "frontend", "coding"]
     },
-    { "name": "backend development", "level": "proficient" },
-
-    { "name": "agile methodology", "level": "proficient" },
+    {
+      "name": "backend development",
+      "level": "proficient",
+      "alt": ["coding", "scalability", "scaling"]
+    },
 
     {
       "name": "problem-solving",
       "level": "expert",
-      "alt": ["problem solving"]
+      "alt": [
+        "problem solving",
+        "scalability",
+        "scaling",
+        "automation",
+        "engineering",
+        "development",
+        "soft skill"
+      ]
     },
 
     {
       "name": "microcontrollers",
-      "level": "competent",
-      "alt": ["microprocessors", "technogies", "technology"]
+      "level": "intermediate",
+      "alt": [
+        "microprocessors",
+        "technologies",
+        "technology",
+        "automation",
+        "iot",
+        "engineering"
+      ]
     },
     {
       "name": "arduino",
       "level": "proficient",
-      "alt": ["microcontrollers", "microprocessors", "technogies", "technology"]
+      "alt": [
+        "microcontrollers",
+        "microprocessors",
+        "technologies",
+        "technology",
+        "automation",
+        "iot",
+        "engineering"
+      ]
     },
     {
       "name": "raspberry pi",
       "level": "proficient",
-      "alt": ["rpi", "pi", "raspberry", "technogies", "technology"]
+      "alt": [
+        "rpi",
+        "pi",
+        "raspberry",
+        "technologies",
+        "technology",
+        "automation",
+        "iot",
+        "engineering"
+      ]
     },
 
-    { "name": "woodworking", "level": "advanced-beginner" },
-    { "name": "machining", "level": "competent" },
-    { "name": "laser cutting", "level": "competent" },
-    { "name": "mig welding", "level": "advanced-beginner", "alt": ["gmaw"] },
-
-    { "name": "soldering", "level": "proficient" },
-    { "name": "circuitry", "level": "competent" },
+    { "name": "woodworking", "level": "intermediate", "alt": ["engineering"] },
+    { "name": "machining", "level": "intermediate", "alt": ["engineering"] },
+    {
+      "name": "laser cutting",
+      "level": "intermediate",
+      "alt": ["automation", "engineering"]
+    },
+    {
+      "name": "mig welding",
+      "level": "intermediate",
+      "alt": ["engineering"]
+    },
+    {
+      "name": "additive manufacturing",
+      "level": "proficient",
+      "alt": [
+        "3d printing",
+        "technologies",
+        "technology",
+        "automation",
+        "engineering"
+      ]
+    },
+    { "name": "soldering", "level": "proficient", "alt": ["engineering"] },
+    { "name": "circuitry", "level": "intermediate", "alt": ["engineering"] },
 
     { "name": "drums", "level": "proficient", "alt": ["music"] },
     { "name": "saxophone", "level": "expert", "alt": ["music"] },
-    { "name": "guitar", "level": "competent", "alt": ["music"] },
+    { "name": "guitar", "level": "intermediate", "alt": ["music"] },
     {
       "name": "keyboard",
-      "level": "advanced-beginner",
+      "level": "intermediate",
       "alt": ["music", "piano"]
     },
 
     {
       "name": "english",
       "level": "expert",
-      "alt": ["language", "human language"]
+      "alt": ["language", "human language", "communication", "soft skill"]
     },
     {
       "name": "german",
-      "level": "advanced-beginner",
-      "alt": ["language", "human language"]
+      "level": "intermediate",
+      "alt": ["language", "human language", "communication", "soft skill"]
     },
     {
       "name": "spanish",
-      "level": "competent",
-      "alt": ["language", "human language"]
+      "level": "proficient",
+      "alt": ["language", "human language", "communication", "soft skill"]
     },
     {
       "name": "swedish",
       "level": "novice",
-      "alt": ["language", "human language"]
+      "alt": ["language", "human language", "communication", "soft skill"]
+    },
+    {
+      "name": "italian",
+      "level": "novice",
+      "alt": ["language", "human language", "communication", "soft skill"]
     },
 
     {
       "name": "vim",
-      "level": "competent",
-      "alt": ["technogies", "technology"]
+      "level": "proficient",
+      "alt": ["technologies", "technology", "coding", "development"]
     },
     {
       "name": "vscode",
       "level": "expert",
-      "alt": ["visual studio code", "technogies", "technology"]
+      "alt": [
+        "visual studio code",
+        "technologies",
+        "technology",
+        "coding",
+        "microsoft",
+        "development"
+      ]
     },
 
     {
-      "name": "additive manufacturing",
-      "level": "competent",
-      "alt": ["3d printing", "technogies", "technology"]
-    },
-    {
       "name": "solidworks",
-      "level": "competent",
-      "alt": ["cad", "technogies", "technology"]
+      "level": "proficient",
+      "alt": ["cad", "technologies", "technology", "engineering"]
     },
     {
       "name": "labview",
-      "level": "competent",
+      "level": "proficient",
       "alt": [
         "visual programming",
         "programming language",
-        "technogies",
-        "technology"
+        "technologies",
+        "technology",
+        "coding",
+        "automation",
+        "engineering"
       ]
     },
     {
@@ -409,29 +686,24 @@
     },
     {
       "name": "infrared spectroscopy",
-      "level": "competent",
-      "alt": ["ir", "spectroscopy"]
+      "level": "proficient",
+      "alt": ["ir", "spectroscopy", "chemistry"]
     },
 
     {
       "name": "jaeger",
-      "level": "competent",
-      "alt": ["tracing", "telemetry", "technogies", "technology"]
+      "level": "proficient",
+      "alt": ["tracing", "telemetry", "technologies", "technology"]
     },
     {
       "name": "opentelemetry",
       "level": "proficient",
-      "alt": ["tracing", "telemetry", "technogies", "technology"]
-    },
-    {
-      "name": "node async hooks",
-      "level": "proficient",
-      "alt": ["backend", "technogies", "technology"]
+      "alt": ["tracing", "telemetry", "technologies", "technology"]
     },
     {
       "name": "event-driven programming",
       "level": "proficient",
-      "alt": ["async", "async/await"]
+      "alt": ["async", "async/await", "coding", "development"]
     },
     {
       "name": "pandas",
@@ -441,44 +713,71 @@
         "data",
         "library",
         "libraries",
-        "technogies",
-        "technology"
+        "technologies",
+        "technology",
+        "coding",
+        "development"
       ]
     },
     {
       "name": "sql",
       "level": "proficient",
-      "alt": ["database", "db", "technogies", "technology"]
+      "alt": [
+        "database",
+        "db",
+        "technologies",
+        "technology",
+        "coding",
+        "development"
+      ]
     },
     {
       "name": "dynamodb",
       "level": "proficient",
-      "alt": ["database", "db", "technogies", "technology", "aws", "cloud"]
+      "alt": [
+        "database",
+        "db",
+        "technologies",
+        "technology",
+        "aws",
+        "cloud",
+        "coding",
+        "scalability",
+        "scaling",
+        "development"
+      ]
     },
     {
       "name": "nosql",
-      "level": "advanced-beginner",
-      "alt": ["database", "db", "technogies", "technology"]
+      "level": "intermediate",
+      "alt": ["database", "db", "technologies", "technology", "coding"]
     },
     {
       "name": "localstack",
       "level": "expert",
-      "alt": ["cloud", "aws", "technogies", "technology"]
+      "alt": ["cloud", "aws", "technologies", "technology", "development"]
     },
     {
       "name": "postgresql",
       "level": "proficient",
-      "alt": ["db", "database", "technogies", "technology"]
+      "alt": [
+        "db",
+        "database",
+        "technologies",
+        "technology",
+        "coding",
+        "development"
+      ]
     },
     {
       "name": "kafka",
-      "level": "competent",
-      "alt": ["technogies", "technology"]
+      "level": "proficient",
+      "alt": ["technologies", "technology", "scalability", "scaling"]
     },
     {
       "name": "unix",
       "level": "proficient",
-      "alt": ["os", "operating system", "technogies", "technology"]
+      "alt": ["os", "operating system", "technologies", "technology"]
     }
   ],
   "sections": [
@@ -694,7 +993,7 @@
               "blurb": "During my 3 years of work as a research assistant in the Raston Lab at JMU, I co-authored four peer-reviewed publications, contributed to three conference papers and presented our lab's findings at several national and international-level conferences.",
               "items": [
                 "The Synchrotron-based Far-infrared Spectrum of Glycolaldehyde\nBreanna Collier, Kristopher Krueger, Isaac Miller, Jianbiao Zhao, Brant E. Billinghurst, and Paul L. Raston\n The Astrophysical Journal Supplement Series 2021 253 (2), 40-51 [DOI:10.3847/1538-4365/abde40](http://dx.doi.org/10.3847/1538-4365/abde40)",
-                "Observation of the elusive “oxygen-in” OCS dimer\nIsaac Miller, Ty Faulkner, John Saunier, and Paul L. Raston\nThe Journal Chemical Physics 2020 152, 221102 [DOI: 10.1063/5.0010716](https://aip.scitation.org/doi/10.1063/5.0010716)",
+                "Observation of the elusive \"oxygen-in\" OCS dimer\nIsaac Miller, Ty Faulkner, John Saunier, and Paul L. Raston\nThe Journal Chemical Physics 2020 152, 221102 [DOI: 10.1063/5.0010716](https://aip.scitation.org/doi/10.1063/5.0010716)",
                 "Laser Spectroscopy of Methanol Isotopologues in ^4^He Nanodroplets: Probing the Inertial Response around a Moderately Light Rotor\nIsaac Miller, Ty Faulkner, and Paul L. Raston\nThe Journal of Physical Chemistry A 2019 123 (8), 1630-1636 [DOI: 10.1021/acs.jpca.8b12576](https://pubs.acs.org/doi/10.1021/acs.jpca.8b12576)",
                 "Quantum cascade laser spectroscopy of OCS isotopologues in ^4^He nanodroplets: A test of adiabatic following for a heavy rotor\nTy Faulkner, Isaac Miller, and Paul L. Raston\nThe Journal of Chemical Physics 2018 148 (4), 044308 [DOI: 10.1063/1.5009908](https://aip.scitation.org/doi/10.1063/1.5009908)"
               ]
