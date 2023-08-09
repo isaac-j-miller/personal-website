@@ -30,3 +30,4 @@ jobs:
           cd dist
           aws s3 rm --recursive s3://isaac-j-miller.com
           aws s3 cp --recursive --acl public-read . s3://isaac-j-miller.com
+          aws cloudfront create-invalidation --distribution-id E3AJATXCNS28YL --paths '/*'
