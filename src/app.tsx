@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 import { AboutMeSection } from "./components/about-me";
 import { Footer } from "./components/footer";
@@ -36,6 +36,9 @@ const ContentDiv = styled.div`
 `;
 
 export const App: React.FC = () => {
+  useEffect(() => {
+    document.title = "Isaac's Personal Website";
+  });
   return (
     <AppDiv>
       <Header template={resumeJson} />

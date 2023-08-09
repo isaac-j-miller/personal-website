@@ -1394,6 +1394,15 @@
               ]
             },
             {
+              "header": "Personal Website (January 2022 – Current)",
+              "items": [
+                "Built a personal website (you're looking at it right now, as a matter of fact)",
+                "Website is generated from a JSON file which contains all of the content",
+                "Wrote simple deployment pipeline which uploads static web assets to AWS S3 and then invalidates the CDN distribution",
+                "GitHub repo [here](https://github.com/isaac-j-miller/personal-website)"
+              ]
+            },
+            {
               "header": "lite-ci (January 2022 – Current)",
               "items": [
                 "Designed and developed a lightweight, miniature CI server for self-hosted projects using Node.JS and Express",
