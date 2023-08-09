@@ -22,19 +22,27 @@
     "sections": [
       {
         "subHeader": "I am a skilled and experienced engineer",
-        "text": "I am a forward-thinking, detail-oriented Software Engineer with DevOps experience, a reputation for writing well-tested, well-documented, reliable, and clean code and infrastructure. I am passionate about designing for scalability and automating things. I'm fluent in Typescript and Python and experienced with C# and C++. I am a team player focused on building robust, scalable systems, completing project objectives within their deadlines, and writing detailed documentation for others."
+        "text": "I am a forward-thinking, goal-oriented software engineer with DevOps experience, a reputation for writing well-tested, well-documented, reliable, and clean code and infrastructure. I am passionate about and automating things and designing for scalability. I'm fluent in Typescript and Python and experienced with C# and C++, and I pick up new programming languages easily. I am a team player focused on building robust, scalable systems, completing project objectives within their deadlines, and writing detailed documentation for others. I take pride in my work, and believe that the results that I produce should be my strongest advocate."
       },
       {
         "subHeader": "I love to learn",
-        "text": "In all of my endeavors, I am constantly searching to expand my knowledge and abilities. At JMU, I found myself interested in everything STEM, so I took on two intense programs to graduate with degrees in Chemistry and Engineering as well as a minor in Mathematics. Outside of my work and formal education, you can find me reading, learning a new language, or crafting a new project. I am an avid reader, especially of history and sci-fi and I have a deep interest in linguistics and language as well. Currently, I'm proficient in Spanish, currently learning German and Italian, and I've dabbled in Swedish and Norwegian. As for my craftsmanship, I recently started a small woodworking shop and have a few pieces to show for it. I also enjoy machining, 3D printing, and welding."
+        "text": "In all of my endeavors, I am constantly searching to expand my knowledge and abilities. At JMU, I found myself interested in everything STEM, so I took on two intense programs to graduate with degrees in Chemistry and Engineering as well as a minor in Mathematics. Outside of my work and formal education, you can find me reading, learning a new language, or crafting a new project. I am an avid reader, especially of history and sci-fi and I have a deep interest in linguistics and language as well. Currently, I'm proficient in Spanish, currently learning German, and I've dabbled in Swedish, Italian, and Norwegian. As for my craftsmanship, I built several of the furniture pieces which currently furnish my apartment. I also enjoy machining, 3D printing, and welding."
       },
       {
         "subHeader": "I have a unique background",
-        "text": "Diversity in thought is one of an organization's greatest strengths. The more diverse a group is, the more unique ideas and perspectives are present in the amalgam, resulting in a more thorough, better thought-out, and more robust final product. I bring with me the unique experience of five years of chemistry education as well as four years of education in multidisciplinary engineering. I am well-versed in physics, thermodynamics, chemistry, engineering, mathematics, history, and programming, and I love to apply my knowledge to new problems."
+        "text": "Diversity in thought is one of an organization's greatest strengths. The more diverse a group is, the more unique ideas and perspectives are present in the amalgam, resulting in a more thorough, better thought-out, and more robust final product. I bring with me the unique experience of five years of chemistry education as well as four years of education in multidisciplinary engineering. I am well-versed in physics, thermodynamics, chemistry, engineering, mathematics, history, music, and programming, and I love to apply my knowledge to new problems."
       },
       {
         "subHeader": "I am constantly improving",
         "text": "When I look at code I wrote years ago, I will often feel a slight sense of embarrassment: _\"Did I really write that?\"_ But when I look at my old code and I don't think that, I have a worse feeling: _\"Am I not improving?\"_ It is good to be embarrassed by the quality of your old code because that indicates that your standards and ability now are greater than when the code was written. Sometimes I laugh at the quality of my older projects on GitHub, but I leave them as a reminder of how far I've come, and how much further I will go."
+      },
+      {
+        "subHeader": "I don't miss the forest for the trees",
+        "text": "In my engineering classes, I learned how to synthesize vague and abstract project ideas into concrete, quantifiable, and specific requirements, wants, nice-to-haves, etc, and then to convert those into action items. This is a key part of being a leader in a software development team, and it is one of my favorite parts of my job. I love taking a project from the concept phase to the production phase. It is crucial to keep track of the larger puzzle that a given project fits into in all parts of the project lifecycle, and this is something that I am very good at."
+      },
+      {
+        "subHeader": "I pay a lot of attention to the trees",
+        "text": "I have always been a detail-oriented thinker, and I take great pride in the quality of my work. This is true in all areas; I love to take my time perfecting a piece of furniture, or re-writing a song. I also love the feeling of satisfaction that I get from writing clean code, but I realize that sometimes the qualities that we think of as \"clean code\" can be at odds with performance or cost optimization, and that sometimes, I have to set aside my craftsman-orientation towards coding in favor of a bigger-picture perspective."
       }
     ]
   },
@@ -78,7 +86,7 @@
     {
       "name": "trivia",
       "level": "expert",
-      "alt": ["soft skill", "fun"]
+      "alt": ["soft skill", "fun", "hobby", "hobbies"]
     },
     {
       "name": "microsoft office",
@@ -385,7 +393,7 @@
 
     {
       "name": "terraform",
-      "level": "proficient",
+      "level": "expert",
       "alt": [
         "devops",
         "technologies",
@@ -393,6 +401,35 @@
         "automation",
         "development",
         "tool"
+      ]
+    },
+    {
+      "name": "kubernetes",
+      "level": "proficient",
+      "alt": [
+        "devops",
+        "technologies",
+        "technology",
+        "automation",
+        "development",
+        "tool",
+        "kubernets",
+        "k8s"
+      ]
+    },
+
+    {
+      "name": "helm",
+      "level": "proficient",
+      "alt": [
+        "devops",
+        "technologies",
+        "technology",
+        "automation",
+        "development",
+        "tool",
+        "kubernets",
+        "k8s"
       ]
     },
     {
@@ -412,7 +449,8 @@
         "automation",
         "development",
         "computer",
-        "software engineering"
+        "software engineering",
+        "unix"
       ]
     },
     {
@@ -425,7 +463,9 @@
         "technology",
         "development",
         "computer",
-        "software engineering"
+        "software engineering",
+        "macos",
+        "unix"
       ]
     },
     {
@@ -669,6 +709,21 @@
       ]
     },
     {
+      "name": "aws eks",
+      "level": "proficient",
+      "alt": [
+        "devops",
+        "technologies",
+        "technology",
+        "cloud",
+        "scalability",
+        "scaling",
+        "amazon",
+        "elastic container service",
+        "server"
+      ]
+    },
+    {
       "name": "aws ec2",
       "level": "intermediate",
       "alt": [
@@ -800,7 +855,7 @@
     },
     {
       "name": "backend development",
-      "level": "proficient",
+      "level": "expert",
       "alt": [
         "coding",
         "scalability",
@@ -837,7 +892,8 @@
         "automation",
         "iot",
         "engineering",
-        "computer science"
+        "computer science",
+        "real time systems"
       ]
     },
     {
@@ -853,7 +909,10 @@
         "engineering",
         "crafting",
         "fun",
-        "computer science"
+        "hobby",
+        "hobbies",
+        "computer science",
+        "real time systems"
       ]
     },
     {
@@ -870,6 +929,8 @@
         "engineering",
         "crafting",
         "fun",
+        "hobby",
+        "hobbies",
         "computer science",
         "computer",
         "linux"
@@ -879,22 +940,57 @@
     {
       "name": "woodworking",
       "level": "intermediate",
-      "alt": ["engineering", "crafting", "fun"]
+      "alt": ["engineering", "crafting", "fun", "hobby", "hobbies"]
     },
     {
       "name": "machining",
       "level": "intermediate",
-      "alt": ["engineering", "crafting", "fun"]
+      "alt": ["engineering", "crafting", "fun", "hobby", "hobbies"]
     },
     {
       "name": "laser cutting",
       "level": "intermediate",
-      "alt": ["automation", "engineering", "crafting", "fun"]
+      "alt": [
+        "automation",
+        "engineering",
+        "crafting",
+        "fun",
+        "hobby",
+        "hobbies"
+      ]
+    },
+    {
+      "name": "hydroponics",
+      "level": "intermediate",
+      "alt": [
+        "automation",
+        "engineering",
+        "crafting",
+        "fun",
+        "hobby",
+        "hobbies",
+        "plants",
+        "gardening"
+      ]
+    },
+    {
+      "name": "weight lifting",
+      "level": "intermediate",
+      "alt": [
+        "fun",
+        "hobby",
+        "hobbies",
+        "exercise",
+        "fitness",
+        "gym",
+        "weights",
+        "strength"
+      ]
     },
     {
       "name": "mig welding",
       "level": "intermediate",
-      "alt": ["engineering", "crafting", "fun"]
+      "alt": ["engineering", "crafting", "fun", "hobby", "hobbies"]
     },
     {
       "name": "additive manufacturing",
@@ -906,27 +1002,41 @@
         "automation",
         "engineering",
         "crafting",
-        "fun"
+        "fun",
+        "hobby",
+        "hobbies"
       ]
     },
     {
       "name": "soldering",
       "level": "proficient",
-      "alt": ["engineering", "crafting", "fun"]
+      "alt": ["engineering", "crafting", "fun", "hobby", "hobbies"]
     },
     {
       "name": "circuitry",
       "level": "intermediate",
-      "alt": ["engineering", "crafting", "fun"]
+      "alt": ["engineering", "crafting", "fun", "hobby", "hobbies"]
     },
 
-    { "name": "drums", "level": "proficient", "alt": ["music", "fun"] },
-    { "name": "saxophone", "level": "expert", "alt": ["music", "fun"] },
-    { "name": "guitar", "level": "intermediate", "alt": ["music", "fun"] },
+    {
+      "name": "drums",
+      "level": "proficient",
+      "alt": ["music", "fun", "hobby", "hobbies"]
+    },
+    {
+      "name": "saxophone",
+      "level": "expert",
+      "alt": ["music", "fun", "hobby", "hobbies"]
+    },
+    {
+      "name": "guitar",
+      "level": "intermediate",
+      "alt": ["music", "fun", "hobby", "hobbies"]
+    },
     {
       "name": "keyboard",
       "level": "intermediate",
-      "alt": ["music", "piano", "fun"]
+      "alt": ["music", "piano", "fun", "hobby", "hobbies"]
     },
 
     {
@@ -944,22 +1054,6 @@
       "level": "proficient",
       "alt": ["language", "human language", "communication", "soft skill"]
     },
-    {
-      "name": "swedish",
-      "level": "novice",
-      "alt": ["language", "human language", "communication", "soft skill"]
-    },
-    {
-      "name": "norwegian",
-      "level": "novice",
-      "alt": ["language", "human language", "communication", "soft skill"]
-    },
-    {
-      "name": "italian",
-      "level": "novice",
-      "alt": ["language", "human language", "communication", "soft skill"]
-    },
-
     {
       "name": "vim",
       "level": "proficient",
@@ -1020,11 +1114,26 @@
       "level": "proficient",
       "alt": ["ir", "spectroscopy", "chemistry", "science"]
     },
-
     {
       "name": "jaeger",
       "level": "proficient",
       "alt": ["tracing", "telemetry", "technologies", "technology", "tool"]
+    },
+    {
+      "name": "datadog",
+      "level": "expert",
+      "alt": [
+        "tracing",
+        "telemetry",
+        "technologies",
+        "technology",
+        "tool",
+        "logging",
+        "metrics",
+        "monitoring",
+        "devops",
+        "development"
+      ]
     },
     {
       "name": "opentelemetry",
@@ -1033,7 +1142,7 @@
     },
     {
       "name": "event-driven programming",
-      "level": "proficient",
+      "level": "expert",
       "alt": ["async", "async/await", "coding", "development"]
     },
     {
@@ -1108,6 +1217,8 @@
         "technology",
         "development",
         "software engineering",
+        "test",
+        "testing",
         "tool"
       ]
     },
@@ -1146,25 +1257,39 @@
           "subHeader": "September 2020 – Current",
           "points": [
             {
-              "header": "Software Engineer (July 2021 – Current)",
-              "items": []
+              "header": "Senior Software Engineer (February 2023 – Current)",
+              "blurb": "When my technical team lead quit in August 2021, I took on many of the role's responsibilities, and as those responsibilities increased, I proved more than capable of handling them.",
+              "items": [
+                "Architected and spearheaded development of several support services and applications which were integral to the timely rollout of CoStar Sync, which is described in [this](https://aws.amazon.com/solutions/case-studies/costar-opensearch-case-study/) AWS case study",
+                "Onboarded and mentored multiple newly-hired engineers",
+                "Wrote in-depth wiki articles for internal users of the applications that my team is responsible for"
+              ]
+            },
+            {
+              "header": "Software Engineer (July 2021 – February 2023)",
+              "blurb": "As a software engineer, I proved my ability to own multiple projects and play a key role in pushing their development forward.",
+              "items": [
+                "Architected and spearheaded development of session management system supplementary to OAUTH-2 that allows detection and prevention of software license abuse for 105 million monthly unique visitors, as well as other session management features",
+                "Designed and built CoStar’s Application Vending Machine, which streamlines project development by allowing developers to write parameterized yeoman-based project templates which describe file structure, branch policies, and Azure DevOps YAML templates. These templates can then be used to create new projects, and then create automated pull requests to the managed projects when the template is updated.",
+                "Designed and implemented efficient and scalable distributed cloud-based software systems",
+                "Assumed many of the responsibilities of team lead for over a year due to hiring difficulties and led a team of 3 through the completion of multiple projects from start to finish during this time",
+                "Synthesized vague and sometimes contradictory project requests into coherent requirements and stories",
+                "Migrated multiple projects from single-region AWS architecture to multi-region architecture",
+                "Was primary point-of-contact and knowledge source for multiple projects",
+                "Responsible for developing and maintaining CoStar’s PDF/Excel report generation service, which is a high-value, customer-facing product"
+              ]
             },
             {
               "header": "Associate Software Engineer (September 2020 – July 2021)",
               "blurb": "After less than a year at the company, I was promoted from Associate Software Engineer to Software Engineer.",
               "items": [
-                "Architected and spearheaded development of session management system supplementary to OAUTH-2 that allows detection and prevention of software license abuse for hundreds of thousands of daily active users, as well as other session management features",
                 "Built spikes as proof-of-concept and transformed them into fully featured services",
-                "Designed and implemented efficient large-scale distributed cloud-based software systems",
                 "Used infrastructure-as-code tools to manage releases and deployments",
                 "Designed and implemented CI/CD pipelines in Azure DevOps for validating builds, running unit and integration tests, and deploying development, test, and production environments",
                 "Designed and implemented monorepo-based version management system to automatically publish individual sub-packages for shared code to company NPM repository based on dependency tree changes",
                 "Coordinated within and across engineering teams and management to gather and refine requirements, improve user experience, and decrease operational costs",
-                "Maintained, developed upon, and provided support for customer-focused, cloud-based report orchestration system",
                 "Wrote CLI scripts to automate pull request creation, validation, and completion",
-                "Migrated two projects from single-region AWS architecture to multi-region architecture",
-                "Wrote applications in Typescript and C#, and wrote DevOps scripts in bash and Python",
-                "Spearheaded design and development of \"Application Vending Machine\" tool to automate creation of new templated repositories and sets of pipelines"
+                "Wrote applications in Typescript and C#, and wrote DevOps scripts in bash and Python"
               ]
             }
           ]
@@ -1175,12 +1300,14 @@
           "points": [
             {
               "header": "Software Engineer (Contract)",
+              "blurb": "From April 2020 – September 2020, I worked full-time. Since then, I've been on retainer to maintain and occasionally add features to the projects I completed in 2020.",
               "items": [
                 "Automated manual data analysis processes to save tens of person-hours of work per week",
                 "Set up, managed, and used CI/CD tools such as GitLab to use on on-premises server for git repository and automatic deployments of web applications to docker swarm",
+                "Later, I migrated the on-prem infrastructure I set up into Azure Cloud and integrated with Office365",
                 "Developed automotive and home insurance comparative rating system web application for internal use",
                 "Developed internal web application for tracking agent commissions across multiple agency locations",
-                "Developed process for tracking customer retention, allowing agencies to significantly increase retention"
+                "Developed automated processes for tracking customer retention, allowing agencies to significantly increase retention"
               ]
             }
           ]
@@ -1191,6 +1318,7 @@
           "points": [
             {
               "header": "Research Assistant",
+              "blurb": "I learned many valuable skills in the lab of Dr. Paul Raston.",
               "items": [
                 "Engineered and fabricated custom components for a helium nanodroplet isolation spectrometer",
                 "Designed, built, and coded (in C++) a microcontroller-based failsafe system for delicate scientific instruments",
@@ -1234,7 +1362,7 @@
             },
             {
               "header": "B.S., Engineering",
-              "items": ["Minor in Mathematics", "3.6 GPA"]
+              "items": ["Minor in Mathematics"]
             }
           ]
         }
@@ -1247,9 +1375,29 @@
           "header": "Personal Projects",
           "points": [
             {
+              "header": "Monopoly-Inspired Multiplayer Game (May 2023 – Current)",
+              "items": [
+                "Wrote a websocket-based multiplayer game in NodeJS/React which was inspired by a Ray Dalio quote regarding monopoly as a simulation of the economy",
+                "This version of Monopoly allows players to make loans to each other with dynamic interest rates",
+                "Implemented a decision-making algorithm for \"AI\" players, which results in realistic, if sometimes comical, behavior (I'm still tweaking the algorithm)",
+                "Implemented a modular multiplayer system, which allows any number of human or AI players",
+                "Visualizes in-game economic data in real time, which reveals interesting boom/bust phenomena",
+                "Once I get the game into a more complete state, I plan to host it somewhere",
+                "GitHub repo [here](https://github.com/isaac-j-miller/monopoly)"
+              ]
+            },
+            {
+              "header": "C# Code Generator (July – September 2022)",
+              "items": [
+                "Wrote a program which traverses a Typescript AST to generate C# data classes",
+                "GitHub repo [here](https://github.com/isaac-j-miller/ts-csharp-converter)"
+              ]
+            },
+            {
               "header": "lite-ci (January 2022 – Current)",
               "items": [
                 "Designed and developed a lightweight, miniature CI server for self-hosted projects using Node.JS and Express",
+                "The purpose of this project is to make it easy to automate deployment of code to Raspberry Pi servers which do not have a public IP",
                 "I plan to re-implement in Python to make installation easier for Raspberry Pi hobbyists",
                 "GitHub repo [here](https://github.com/isaac-j-miller/lite-ci)"
               ]
@@ -1267,7 +1415,7 @@
               "items": [
                 "Designed and implemented an open-source simulation of a helium nanodroplet isolation spectrometer for teaching purposes",
                 "Re-worked project to utilize distributed architecture, migrating from an ECS-based app to S3/API Gateway/Lambda",
-                "Reduced cloud hosting costs from approximately $15 per month to approximately $0.50 per month (97%!)",
+                "Reduced cloud hosting costs from approximately $15 per month to approximately $0.50 per month (__97% cost savings!__)",
                 "GitHub repo [here](https://github.com/isaac-j-miller/virtual-hendi)",
                 "Hosted [here](https://virtual-hendi.isaac-j-miller.com)"
               ]
@@ -1292,7 +1440,7 @@
               "items": ["Wrote multi-player chess game with GUI using Python"]
             },
             {
-              "header": "Self-Driving Toy Car",
+              "header": "Self-Driving Toy Car (2018)",
               "items": [
                 "Designed and built a self-driving toy car, programmed in C++",
                 "Wrote object-detection and collision avoidance algorithms to allow the vehicle to autonomously navigate an obstacle course",
@@ -1326,7 +1474,7 @@
             {
               "header": "Interlock for Interlock for Helium Nanodroplet Isolation Spectrometer (September 2018 – August 2019)",
               "items": [
-                "Independently designed and built a flexble, microcontroller-driven digital interlock system",
+                "Independently designed, built, installed, and maintained a flexble, microcontroller-driven digital interlock system",
                 "Wrote device firmware in C++ to prevent or mitigate damage to delicate scientific instruments in the case of malfunction",
                 "Designed and implemented circuitry on a custom-made printed circuit board",
                 "Built a GUI using Python to modify Interlock configuration",
